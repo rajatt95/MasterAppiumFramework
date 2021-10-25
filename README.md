@@ -7,6 +7,7 @@ Updations done:
 ------------------------------------------------------------
 **ExtentReports V5.0.9** 
 1. User can apply the Filters - 
+- DeviceType - Pixel 3, Pixel 3A, Pixel 4
 - Author - Rajat, Nishant, Gautam, Pankaj 
 - TestType - Smoke, Sanity, Regression, BVT
 
