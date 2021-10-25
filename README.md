@@ -49,7 +49,8 @@ Updations done:
 1. Pull the code into your machine and import in IDE (Eclipse/intelliJ).
 2. Go to testng.xml -> Run this file as TestNG suite (you should have the setup done for Appium)
   It should start the execution -> Parallel Testing.
-  ![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
+  
+![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
 ![image](https://user-images.githubusercontent.com/26399692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
 
 ------------------------------------------------------------
