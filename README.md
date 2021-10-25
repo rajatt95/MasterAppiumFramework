@@ -47,7 +47,7 @@ Updations done:
 ------------------------------------------------------------
 **How to run the Project from Local machine**
 1. Pull the code into your machine and import in IDE (Eclipse/intelliJ).
-2. Go to testng.xml -> Run this file as TestNG suite (you should have the setup done for Appium)
+2. Go to testng.xml -> Run this file as TestNG suite (you should have done the setup for Appium)
   It should start the execution -> Parallel Testing.
   
 ![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
