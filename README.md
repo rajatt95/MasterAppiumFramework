@@ -3,6 +3,10 @@ With further updates - This project is designed and developed with the help of -
 1. Udemy course (OmPrakash Chavan - Appium Mobile Automation - Android &amp; iOS + Frameworks + CICD)
 2. YouTube playlist (Testing Mini Bytes)
 ------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/26399692/138761285-c49b6879-47cf-4a52-a877-ae20cdf4ef94.png)
+![image](https://user-images.githubusercontent.com/26399692/138761338-472a1491-556d-4342-8c15-341a58faba70.png)
+
+------------------------------------------------------------
 Updations done:
 ------------------------------------------------------------
 **ExtentReports V5.0.9** 
