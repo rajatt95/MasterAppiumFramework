@@ -189,7 +189,7 @@ public class BaseTest {
 		server = AppiumServerUtils.getAppiumService();
 		if (!AppiumServerUtils.checkIfAppiumServerIsRunnning(4723)) {
 			server.start();
-			/* This will not print the Appium server Logs in Eclipse IDE console */
+			/* This will not print the Appium server Logs in IDE console */
 			server.clearOutPutStreams();
 			TestUtils.log().debug("Appium Server started.................");
 		} else {
