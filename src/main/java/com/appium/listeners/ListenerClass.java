@@ -78,9 +78,16 @@ public class ListenerClass implements ITestListener, ISuiteListener {
 
 		// Rajat
 		String exceptionMessage = Arrays.toString(result.getThrowable().getStackTrace());
-		ExtentLogger.fail("<details><summary><b><font color=red> Exception occured, click to see details: </font></b>"
-				+ "</summary>" + exceptionMessage.replaceAll(",", "<br>") + "</details> \n");
-		String logText = "<b>" + result.getMethod().getMethodName() + " is failed.</b>";
+	
+		String message = "<details><summary><b><font color=red> Exception occured, click to see details: <i class='fa fa-frown-o'></i> </font></b>"
+				+ "</summary>" + exceptionMessage.replaceAll(",", "<br>") + "</details> \n";
+		ExtentLogger.fail(message);
+		
+		/*
+		 * ExtentLogger.
+		 * fail("<details><summary><b><font color=red> Exception occured, click to see details: </font></b>"
+		 * + "</summary>" + exceptionMessage.replaceAll(",", "<br>") + "</details> \n");
+		 */		String logText = "<b>" + result.getMethod().getMethodName() + " is failed.</b>";
 		Markup markup_message = MarkupHelper.createLabel(logText, ExtentColor.RED);
 		ExtentLogger.fail(markup_message, true);
 
