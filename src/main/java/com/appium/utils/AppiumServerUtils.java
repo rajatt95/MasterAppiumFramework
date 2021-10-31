@@ -26,6 +26,14 @@ public class AppiumServerUtils {
 					.withAppiumJS(new File(FrameworkConstants.PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH)).usingPort(4723)
 					.withArgument(GeneralServerFlag.SESSION_OVERRIDE)
 					.withLogFile(new File(FrameworkConstants.APPIUM_SERVER_LOGS)));
+			
+//			return AppiumDriverLocalService.
+//					buildService(new AppiumServiceBuilder().
+//					usingAnyFreePort().
+//					withArgument(GeneralServerFlag.SESSION_OVERRIDE).
+//					withLogFile(new File(FrameworkConstants.APPIUM_SERVER_LOGS)));
+			
+			
 		} else if (os.contains(FrameworkConstants.PLATFORM_OS_MAC)) {
 			HashMap<String, String> environment = new HashMap<String, String>();
 			environment.put(FrameworkConstants.PATH,

@@ -5,6 +5,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Objects;
 
+import static com.appium.constants.FrameworkConstants.ICON_LAPTOP;
+import static com.appium.constants.FrameworkConstants.ICON_SOCIAL_GITHUB;
+import static com.appium.constants.FrameworkConstants.ICON_SOCIAL_LINKEDIN;
+import static com.appium.constants.FrameworkConstants.ICON_ANDROID;
+
 import com.appium.constants.FrameworkConstants;
 import com.appium.enums.AuthorType;
 import com.appium.enums.CategoryType;
@@ -49,8 +54,9 @@ public final class ExtentReport {
 			spark.config().setReportName(FrameworkConstants.Project_Name + " - ALL");
 
 			extent.setSystemInfo("Organization", "Nagarro");
-			extent.setSystemInfo("Employee", "Rajat Verma");
-			extent.setSystemInfo("Domain", "Engineering (IT - Software)");
+			extent.setSystemInfo("Employee",
+					"<b> Rajat Verma </b>" + " " + ICON_SOCIAL_LINKEDIN + " " + ICON_SOCIAL_GITHUB);
+			extent.setSystemInfo("Domain", "Engineering (IT - Software)" + "  " + ICON_LAPTOP);
 			extent.setSystemInfo("Skill", "Test Automation Engineer");
 		}
 	}
@@ -70,15 +76,14 @@ public final class ExtentReport {
 	}
 
 	public static void createTest(String testCaseName) {
-		ExtentManager.setExtentTest(extent.createTest(testCaseName));
+		// ExtentManager.setExtentTest(extent.createTest(testCaseName));
+		ExtentManager.setExtentTest(extent.createTest(ICON_ANDROID + " : " + testCaseName));
 	}
 
 	synchronized public static void addAuthors(AuthorType[] authors) {
-
 		for (AuthorType author : authors) {
 			ExtentManager.getExtentTest().assignAuthor(author.toString());
 		}
-
 	}
 
 	// public static void addCategories(String[] categories) {

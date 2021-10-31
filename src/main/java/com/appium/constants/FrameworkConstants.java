@@ -14,6 +14,26 @@ public class FrameworkConstants {
 	public static final String RESOURCES_MAIN_PATH = PROJECT_LOCATION + "/src/main/resources/";
 	public static final String RESOURCES_TEST_PATH = PROJECT_LOCATION + "/src/test/resources/";
 
+	
+	/* ICONS - START */
+	public static final String ICON_SMILEY_PASS = "<i class='fa fa-smile-o' style='font-size:24px'></i>";
+	public static final String ICON_SMILEY_SKIP = "<i class=\"fas fa-frown-open\"></i>";
+	public static final String ICON_SMILEY_FAIL = "<i class='fa fa-frown-o' style='font-size:24px'></i>";
+	public static final String ICON_BUG = "<i class='fa fa-bug' ></i>";
+	
+	public static final String ICON_SOCIAL_LINKEDIN_URL = "https://www.linkedin.com/in/rajat-v-3b0685128/";
+	public static final String ICON_SOCIAL_GITHUB_URL = "https://github.com/rajatt95";
+	public static final String ICON_SOCIAL_LINKEDIN = "<a href='" + ICON_SOCIAL_LINKEDIN_URL
+			+ "'><i class='fa fa-linkedin-square' style='font-size:24px'></i></a>";
+	public static final String ICON_SOCIAL_GITHUB = "<a href='" + ICON_SOCIAL_GITHUB_URL
+			+ "'><i class='fa fa-github-square' style='font-size:24px'></i></a>";
+
+	public static final String ICON_LAPTOP = "<i class='fa fa-laptop' style='font-size:18px'></i>";
+	public static final String ICON_ANDROID ="<i class=\"fa fa-android\"></i>";
+	/* ICONS - END */
+
+
+	
 	public static final String ASSERTION_FOR = "Assertion for ";
 	public static final String LOGS = "logs";
 
