@@ -16,8 +16,8 @@ Updations done:
 - TestType - Smoke, Sanity, Regression, BVT
 
 2. Screenshots are attached in the ExtentReport as Base64 format.
-![screencapture-file-D-Work-In-Local-Machine-OneDrive-Nagarro-Eclipse-Java-Developers-06-2021-Copy-LearningWS-Final-Code-MasterAppiumFramework-ExtentReports-AutomationReport-html-2021-10-26-01_07_30](https://user-images.githubusercontent.com/26399692/138759191-478cd1a0-c4f7-4343-8b5a-23338d7c6191.png)
-![image](https://user-images.githubusercontent.com/26399692/138759764-2f5e3c3b-1620-4ea8-955f-f37410503107.png)
+![image](https://user-images.githubusercontent.com/26399692/139594083-4e48aa67-1fc3-4fbb-a719-e20c9a5e5427.png)
+![image](https://user-images.githubusercontent.com/26399692/139594098-06f176e1-a318-4af2-bfbc-6e5970002d02.png)
 
 ------------------------------------------------------------
 **User has options for customization**
@@ -25,8 +25,7 @@ Updations done:
 
 ------------------------------------------------------------
 **Email to User(s) using Java mail API**
-![image](https://user-images.githubusercontent.com/26399692/138760384-7bfc3e87-28cf-4b43-b1a9-a5fc64a18834.png)
-
+![image](https://user-images.githubusercontent.com/26399692/139594288-8de6e123-0154-46df-a9e9-26fc1c8fa161.png)
 ------------------------------------------------------------
 **Others implementations:**
 1. Retry failed test cases
