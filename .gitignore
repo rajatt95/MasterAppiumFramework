@@ -3,7 +3,6 @@
 .project
 logs
 ServerLogs
-ExtentReports
 Videos
 target
 test-output

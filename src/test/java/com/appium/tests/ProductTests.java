@@ -87,8 +87,6 @@ public class ProductTests extends BaseTest {
 		String password = jsonObject_InvalidUser.getString(FrameworkConstants.TEST_DATA_JSON_PASSWORD).toString();
 		productsPage = loginPage.login(username, password);
 
-		Assert.fail("*******************************Failing intentionally");
-
 		String actualProductTitle = productsPage.getTitle();
 		String expectedProductTitle = StringsManager.getStrings()
 				.get(FrameworkConstants.EXPECTED_DATA_KEY_PRODUCT_TITLE);
@@ -104,8 +102,16 @@ public class ProductTests extends BaseTest {
 				.get(FrameworkConstants.EXPECTED_DATA_KEY_PRODUCTS_PAGE_SLB_PRICE);
 		VerificationUtils.validate(actualSLBPrice, expectedSLBPrice, "Price for Sauce Labs Backpack");
 
-		settingsPage = productsPage.pressSettingsBtn();
+//		settingsPage = productsPage.pressSettingsBtn();
+//		loginPage = settingsPage.pressLogoutBtn();
+	
+		settingsPage = productsPage.
+				getMenuPage().
+				pressSettingsBtn();
 		loginPage = settingsPage.pressLogoutBtn();
+
+		Assert.fail("*******************************Failing intentionally");
+		
 	}
 
 	@FrameworkAnnotation(author = { AuthorType.RAJAT, AuthorType.NISHANT }, category = { CategoryType.BVT,
