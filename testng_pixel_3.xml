@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite: Emulator- Pixel 3">
+
+	<!-- systemPort and chromeDriverPort must be unique for Parallel execution -->
+	<listeners>
+		<listener class-name="com.appium.listeners.ListenerClass"></listener>
+		<listener
+			class-name="com.appium.listeners.AnnotationTransformer"></listener>
+		<listener class-name="com.appium.listeners.MethodInterceptor"></listener>
+	</listeners>
+
+	<test name="Tests on Emulator: Pixel 3">
+		<parameter name="emulator" value="true"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<!-- <parameter name="platformVersion" value="11.0"></parameter> -->
+		<parameter name="udid" value="emulator-5554"></parameter>
+		<!-- Please give proper value as deviceName value is used as avd (to start 
+			Emulator automatically) -->
+		<parameter name="deviceName" value="Pixel_3"></parameter>
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<packages>
+			<package name="com.appium.tests"></package>
+		</packages>
+	</test>
+</suite> 
