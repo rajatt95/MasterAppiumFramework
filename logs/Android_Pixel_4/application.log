@@ -352,3 +352,4 @@
 [logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:06.657 BasePage:41 - Logout button is clicked
 [logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:28:07.646 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
 [logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:28:07.646 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:38:14.183 BaseTest:87 - Log file path: logs\Android_Pixel_4

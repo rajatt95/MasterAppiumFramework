@@ -1,9 +1,6 @@
 .settings
 .classpath
 .project
-logs
-ServerLogs
-Videos
 target
 test-output
 ExtentReports.zip
