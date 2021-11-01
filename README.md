@@ -8,21 +8,22 @@ With further updates - This project is designed and developed with the help of -
 ------------------------------------------------------------
 Updations and Implementations done:
 ------------------------------------------------------------
-1. Application used: https://github.com/saucelabs/sample-app-mobile/releases (V2.7.1)
-2. ExtentReports V5.0.9
-3. User has options for customization
-4. Email to User(s) using Java mail API
-5. Retry failed test cases
-6. Custom Enums, Exceptions, Annotations 
-7. Zip the ExtentReports directory into Project path (you can send this Zip file as well as an Attachment in Email)
-8. Automatically open the report after tests execution.
-9. Start and Stop Appium Server programmatically
-10. Videos for Failed test cases
-11. Pass Test Data from JSON file
-12. Pass Expected Data from XML file
-13. Send EMail using Java mail API to User(s) with attachment(s).  
-14. Jenkins job setup
-15. Send EMail using Jenkins to User(s) with attachment(s).  
+1. Parallel testing (Multiple devices - Android and iOS) (Real devices and Emulator/Simulator)
+2. Application used: https://github.com/saucelabs/sample-app-mobile/releases (V2.7.1)
+3. ExtentReports V5.0.9
+4. User has options for customization
+5. Email to User(s) using Java mail API
+6. Retry failed test cases
+7. Custom Enums, Exceptions, Annotations 
+8. Zip the ExtentReports directory into Project path (you can send this Zip file as well as an Attachment in Email)
+9. Automatically open the report after tests execution.
+10. Start and Stop Appium Server programmatically
+11. Videos for Failed test cases
+12. Pass Test Data from JSON file
+13. Pass Expected Data from XML file
+14. Send EMail using Java mail API to User(s) with attachment(s).  
+15. Jenkins job setup
+16. Send EMail using Jenkins to User(s) with attachment(s).  
 ------------------------------------------------------------
 **ExtentReports V5.0.9** 
 1. User can apply the Filters - 
