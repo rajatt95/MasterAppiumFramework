@@ -39,7 +39,6 @@ Updations and Implementations done:
 ------------------------------------------------------------
 **User has options for customization**
 ![image](https://user-images.githubusercontent.com/26399692/138759427-8dd20f34-8400-4e2b-9c8a-70e9d28bf231.png)
-
 ------------------------------------------------------------
 **Email to User(s) using Java mail API**
 ![image](https://user-images.githubusercontent.com/26399692/139594288-8de6e123-0154-46df-a9e9-26fc1c8fa161.png)
@@ -56,8 +55,11 @@ Updations and Implementations done:
 1. Pull the code into your machine and import in IDE (Eclipse/intelliJ).
 2. Go to testng.xml -> Run this file as TestNG suite (you should have done the setup for Appium)
   It should start the execution -> Parallel Testing.
-  NOTE: 1. Make sure devices (Either Emulator or Real-Device) are ready 
-        2. com.appium.utils.AppiumServerUtils -> You need to give the path of Node installation (This is for Appium Sever start and stop programatically)
+------------------------------------------------------------
+**NOTE: **
+1. Make sure devices (Either Emulator or Real-Device) are ready 
+2. This is for Appium Sever start and stop programatically -> com.appium.utils.AppiumServerUtils -> You need to give the path of Node installation
+       
 ![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
 ![image](https://user-images.githubusercontent.com/26399692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
 ------------------------------------------------------------
