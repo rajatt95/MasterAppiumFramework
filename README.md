@@ -58,4 +58,13 @@ Updations and Implementations done:
 ![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
 ![image](https://user-images.githubusercontent.com/26399692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
 ------------------------------------------------------------
+**How to run the Project from Jenkins**
+[__Final-OC_Appium-Github.pdf](https://github.com/rajatt95/MasterAppiumFramework_TDD/files/7450866/__Final-OC_Appium-Github.pdf)
+![image](https://user-images.githubusercontent.com/26399692/139624776-cded4554-c2af-4e52-aed9-b1ac715572a5.png)
+
+------------------------------------------------------------
+Email to User(s) using Jenkins:
+![image](https://user-images.githubusercontent.com/26399692/139624661-d2652a4c-798b-40c7-804f-cbb18892dd4c.png)
+
+------------------------------------------------------------
 
