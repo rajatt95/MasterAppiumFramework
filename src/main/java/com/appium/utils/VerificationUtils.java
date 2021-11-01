@@ -24,7 +24,7 @@ public class VerificationUtils {
 
 	private static void logFile(Object actual, Object expected) {
 		TestUtils.log().info("Actual: " + actual);
-		TestUtils.log().info("expected: " + expected);
+		TestUtils.log().info("Expected: " + expected);
 	}
 
 	public static void validateResponse(boolean result, String message) {
