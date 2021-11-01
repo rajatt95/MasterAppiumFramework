@@ -5,6 +5,8 @@ With further updates - This project is designed and developed with the help of -
 ------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/26399692/138761285-c49b6879-47cf-4a52-a877-ae20cdf4ef94.png)
 ![image](https://user-images.githubusercontent.com/26399692/138761338-472a1491-556d-4342-8c15-341a58faba70.png)
+![image](https://user-images.githubusercontent.com/26399692/139634622-3c90c83d-913c-40d4-8faa-e110279b7c2b.png)
+
 ------------------------------------------------------------
 Updations and Implementations done:
 ------------------------------------------------------------
@@ -55,14 +57,14 @@ Updations and Implementations done:
 1. Pull the code into your machine and import in IDE (Eclipse/intelliJ).
 2. Go to testng.xml -> Run this file as TestNG suite (you should have done the setup for Appium)
   It should start the execution -> Parallel Testing.
-  NOTE: Make sure devices (Either Emulator or Real-Device) are ready 
+  NOTE: 1. Make sure devices (Either Emulator or Real-Device) are ready 
+        2. com.appium.utils.AppiumServerUtils -> You need to give the path of Node installation (This is for Appium Sever start and stop programatically)
 ![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
 ![image](https://user-images.githubusercontent.com/26399692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
 ------------------------------------------------------------
 **How to run the Project from Jenkins**
 [__Final-OC_Appium-Github.pdf](https://github.com/rajatt95/MasterAppiumFramework_TDD/files/7450866/__Final-OC_Appium-Github.pdf)
 ![image](https://user-images.githubusercontent.com/26399692/139624776-cded4554-c2af-4e52-aed9-b1ac715572a5.png)
-
 ------------------------------------------------------------
 Email to User(s) using Jenkins:
 ![image](https://user-images.githubusercontent.com/26399692/139624661-d2652a4c-798b-40c7-804f-cbb18892dd4c.png)
