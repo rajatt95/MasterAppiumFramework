@@ -5,8 +5,7 @@ With further updates - This project is designed and developed with the help of -
 ------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/26399692/138761285-c49b6879-47cf-4a52-a877-ae20cdf4ef94.png)
 ![image](https://user-images.githubusercontent.com/26399692/138761338-472a1491-556d-4342-8c15-341a58faba70.png)
-![image](https://user-images.githubusercontent.com/26399692/139634622-3c90c83d-913c-40d4-8faa-e110279b7c2b.png)
-
+![image](https://user-images.githubusercontent.com/26399692/139634693-24396f05-f9b6-45b9-a9ac-ee2f82fef986.png)
 ------------------------------------------------------------
 Updations and Implementations done:
 ------------------------------------------------------------
