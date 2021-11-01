@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Test Suite: Parallel" parallel="tests">
+<suite name="Test Suite: Emulator- Pixel 3">
 
 	<!-- systemPort and chromeDriverPort must be unique for Parallel execution -->
 	<listeners>

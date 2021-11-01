@@ -1,116 +1,354 @@
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:28.915 BaseTest:87 - Log file path: logs\Android_Pixel_4
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:39.615 BaseTest:106 - sessionId: c14eb371-9ce9-4759-a866-cda134411ef4
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:39.679 ProductTests:64 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:39.679 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:41.405 BasePage:55 - Filling standard_user in Username Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:42.055 BasePage:55 - Filling secret_sauce in Password Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:43.256 BasePage:41 - Login button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:45.161 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:45.241 VerificationUtils:26 - Actual: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:45.242 VerificationUtils:27 - expected: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:46.413 BasePage:34 - Sauce Labs Backpack is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:47.915 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:47.980 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:47.980 VerificationUtils:27 - expected: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:48.939 BasePage:62 - Attribute: text value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:49.001 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:49.002 VerificationUtils:27 - expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:54.197 BasePage:62 - Attribute: text value for $29.99 is - $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:54.357 VerificationUtils:26 - Actual: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:54.357 VerificationUtils:27 - expected: $29.99
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:54.702 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:54.703 ProductTests:75 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:57.063 ProductTests:64 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:01:57.064 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:01:58.804 BasePage:55 - Filling standard_user in Username Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:00.034 BasePage:55 - Filling secret_sauce in Password Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:00.685 BasePage:41 - Login button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:02.362 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:02.447 VerificationUtils:26 - Actual: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:02.447 VerificationUtils:27 - expected: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:03.582 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:03.655 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:03.655 VerificationUtils:27 - expected: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:04.671 BasePage:62 - Attribute: text value for $29.99 is - $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:04.742 VerificationUtils:26 - Actual: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:04.743 VerificationUtils:27 - expected: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:05.600 BasePage:41 - Settings button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:07.496 BasePage:41 - Logout button is clicked
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:02:08.020 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:02:08.020 ProductTests:75 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:02:09.868 ProductTests:64 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:02:09.869 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:11.702 BasePage:55 - Filling standard_user in Username Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:12.377 BasePage:55 - Filling secret_sauce in Password Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:13.526 BasePage:41 - Login button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:15.144 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:15.192 VerificationUtils:26 - Actual: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:15.192 VerificationUtils:27 - expected: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:16.153 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:16.273 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:16.274 VerificationUtils:27 - expected: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:17.297 BasePage:62 - Attribute: text value for $29.99 is - $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:17.357 VerificationUtils:26 - Actual: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:17.358 VerificationUtils:27 - expected: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:18.214 BasePage:41 - Settings button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:02:19.981 BasePage:41 - Logout button is clicked
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:02:20.438 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:02:20.439 ProductTests:75 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:03:44.754 BaseTest:87 - Log file path: logs\Android_Pixel_4
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:01.541 BaseTest:106 - sessionId: 7fece7a2-cbc9-4314-b6bb-ffd91134291e
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:02.653 ProductTests:64 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:02.654 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:04.652 BasePage:55 - Filling standard_user in Username Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:05.892 BasePage:55 - Filling secret_sauce in Password Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:07.028 BasePage:41 - Login button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:10.364 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:10.494 VerificationUtils:26 - Actual: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:10.494 VerificationUtils:27 - expected: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:13.018 BasePage:34 - Sauce Labs Backpack is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:15.215 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:15.316 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:15.316 VerificationUtils:27 - expected: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:17.105 BasePage:62 - Attribute: text value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:17.295 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:17.295 VerificationUtils:27 - expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:24.252 BasePage:62 - Attribute: text value for $29.99 is - $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:24.351 VerificationUtils:26 - Actual: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:24.351 VerificationUtils:27 - expected: $29.99
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:25.036 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:25.037 ProductTests:75 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:32.066 ProductTests:64 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:32.066 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:32.384 BasePage:55 - Filling standard_user in Username Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:33.514 BasePage:55 - Filling secret_sauce in Password Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:34.630 BasePage:41 - Login button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:36.483 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:36.564 VerificationUtils:26 - Actual: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:36.564 VerificationUtils:27 - expected: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:37.979 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:38.036 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:38.036 VerificationUtils:27 - expected: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:38.923 BasePage:62 - Attribute: text value for $29.99 is - $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:38.970 VerificationUtils:26 - Actual: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:38.970 VerificationUtils:27 - expected: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:40.016 BasePage:41 - Settings button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:41.811 BasePage:41 - Logout button is clicked
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:42.531 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:42.531 ProductTests:75 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:48.441 ProductTests:64 - ---------------------------------------------------
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:04:48.442 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:49.078 BasePage:55 - Filling standard_user in Username Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:50.342 BasePage:55 - Filling secret_sauce in Password Textbox
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:51.012 BasePage:41 - Login button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:53.721 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:53.841 VerificationUtils:26 - Actual: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:53.841 VerificationUtils:27 - expected: PRODUCTS
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:55.237 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:55.323 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:55.324 VerificationUtils:27 - expected: Sauce Labs Backpack
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:56.558 BasePage:62 - Attribute: text value for $29.99 is - $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:56.653 VerificationUtils:26 - Actual: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:56.653 VerificationUtils:27 - expected: $29.99
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:57.885 BasePage:41 - Settings button is clicked
-[logsAndroid_Pixel_4 INFO ] 2021-10-31 22:04:59.769 BasePage:41 - Logout button is clicked
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:05:00.680 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
-[logsAndroid_Pixel_4 DEBUG] 2021-10-31 22:05:00.681 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:45:20.702 BaseTest:87 - Log file path: logs\Android_Pixel_4
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:49:14.903 BaseTest:87 - Log file path: logs\Android_Pixel_4
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:49:37.443 BaseTest:106 - sessionId: 19a60f75-6ca9-482f-b218-8660d000857e
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:49:38.480 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:49:38.481 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:42.123 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:43.000 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:43.750 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:47.452 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:47.601 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:47.601 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:49.325 BasePage:34 - Sauce Labs Backpack is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:51.749 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:52.091 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:52.092 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:53.873 BasePage:62 - Attribute: text value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:53.996 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:49:53.997 VerificationUtils:27 - expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:01.980 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:02.122 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:02.122 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:50:02.745 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:50:02.746 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:50:17.278 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:50:17.278 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:18.077 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:19.367 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:20.077 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:28.243 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:28.462 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:28.462 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:31.936 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:32.213 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:32.214 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:40.902 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:41.918 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:41.918 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:44.606 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:50:48.725 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:50:52.217 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:50:52.218 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:51:02.927 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:51:02.927 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:03.573 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:04.188 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:04.802 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:06.872 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:06.989 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:06.990 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:08.651 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:08.738 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:08.738 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:09.938 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:10.028 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:10.028 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:11.029 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 12:51:12.836 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:51:14.378 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:51:14.378 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 12:52:44.357 BaseTest:87 - Log file path: logs\Android_Pixel_4
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:26.763 BaseTest:87 - Log file path: logs\Android_Pixel_4
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:47.187 BaseTest:106 - sessionId: acf4ae60-7e6f-4f9a-816c-012f4f3b0360
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:48.026 LoginTests:61 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:48.026 LoginTests:62 - ******************* Test started: invalidPassword*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:49.843 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:51.071 BasePage:55 - Filling invalidpassword in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:51.799 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:53.075 BasePage:62 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:53.139 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:53.140 VerificationUtils:27 - expected: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:53.629 LoginTests:70 - ******************* Test ended: invalidPassword*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:53.630 LoginTests:71 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:55.381 LoginTests:61 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:55.382 LoginTests:62 - ******************* Test started: invalidUserName*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:55.471 BasePage:55 - Filling invalidusername in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:56.212 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:57.344 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:57.814 BasePage:62 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:57.886 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:14:57.887 VerificationUtils:27 - expected: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:58.206 LoginTests:70 - ******************* Test ended: invalidUserName*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:58.208 LoginTests:71 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:59.961 LoginTests:61 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:14:59.961 LoginTests:62 - ******************* Test started: successfulLogin*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:00.027 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:01.528 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:02.154 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:04.013 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:04.097 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:04.097 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:05.154 LoginTests:70 - ******************* Test ended: successfulLogin*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:05.155 LoginTests:71 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:09.969 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:09.971 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:10.908 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:12.006 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:13.118 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:14.925 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:15.004 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:15.004 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:16.124 BasePage:34 - Sauce Labs Backpack is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:17.749 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:17.819 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:17.819 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:18.904 BasePage:62 - Attribute: text value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:18.963 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:18.964 VerificationUtils:27 - expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:23.779 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:23.825 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:23.825 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:24.208 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:24.208 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:29.273 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:29.273 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:29.318 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:30.436 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:31.519 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:33.163 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:33.223 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:33.224 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:34.435 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:34.499 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:34.500 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:35.488 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:35.554 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:35.554 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:36.481 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:38.210 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:38.932 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:38.932 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:47.766 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:47.766 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:47.824 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:48.539 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:49.214 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:51.796 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:51.892 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:51.892 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:53.667 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:53.765 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:53.766 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:55.302 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:55.419 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:55.420 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:56.821 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:15:58.806 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:59.898 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:15:59.898 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:16:07.189 BaseTest:147 - Appium Server stopped.............
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:16:25.795 BaseTest:87 - Log file path: logs\Android_Pixel_4
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:16:37.947 BaseTest:106 - sessionId: d08fbbed-2d8c-4287-988a-b7a01dc9d644
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:16:38.779 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:16:38.780 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:40.332 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:41.032 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:42.056 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:44.598 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:44.706 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:44.706 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:45.808 BasePage:34 - Sauce Labs Backpack is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:48.284 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:48.409 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:48.410 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:50.096 BasePage:62 - Attribute: text value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:50.207 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:50.208 VerificationUtils:27 - expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:59.176 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:59.392 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:16:59.392 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:00.367 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:00.368 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:16.835 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:16.836 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:16.934 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:17.652 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:18.333 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:20.907 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:21.129 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:21.129 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:22.753 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:22.872 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:22.873 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:25.315 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:25.449 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:25.449 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:26.605 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:28.462 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:29.520 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:29.520 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:35.527 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:35.527 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:35.736 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:36.394 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:37.006 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:38.711 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:38.773 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:38.773 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:39.864 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:39.921 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:39.922 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:40.777 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:40.835 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:40.835 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:41.552 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:17:43.337 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:44.039 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:17:44.039 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:14.932 BaseTest:87 - Log file path: logs\Android_Pixel_4
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:30.716 BaseTest:106 - sessionId: 318883ce-3083-49b5-a323-80ccccde0784
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:31.653 LoginTests:61 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:31.653 LoginTests:62 - ******************* Test started: invalidPassword*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:34.656 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:35.921 BasePage:55 - Filling invalidpassword in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:37.027 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:38.299 BasePage:62 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:38.396 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:38.396 VerificationUtils:27 - expected: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:38.873 LoginTests:70 - ******************* Test ended: invalidPassword*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:38.873 LoginTests:71 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:40.570 LoginTests:61 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:40.570 LoginTests:62 - ******************* Test started: invalidUserName*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:40.615 BasePage:55 - Filling invalidusername in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:42.049 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:42.828 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:43.311 BasePage:62 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:43.382 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:43.382 VerificationUtils:27 - expected: Username and password do not match any user in this service.
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:43.802 LoginTests:70 - ******************* Test ended: invalidUserName*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:43.804 LoginTests:71 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:45.349 LoginTests:61 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:45.349 LoginTests:62 - ******************* Test started: successfulLogin*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:45.393 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:46.688 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:47.886 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:50.205 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:50.313 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:50.313 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:51.181 LoginTests:70 - ******************* Test ended: successfulLogin*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:51.182 LoginTests:71 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:56.466 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:25:56.467 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:57.316 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:58.487 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:25:59.651 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:01.589 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:01.953 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:01.953 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:03.662 BasePage:34 - Sauce Labs Backpack is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:05.595 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:05.679 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:05.679 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:06.973 BasePage:62 - Attribute: text value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:07.056 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:07.056 VerificationUtils:27 - expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:12.390 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:12.459 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:12.459 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:12.793 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:12.793 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:17.686 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:17.686 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:17.744 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:18.350 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:19.513 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:21.332 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:21.436 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:21.436 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:22.665 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:22.733 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:22.734 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:23.629 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:23.690 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:23.691 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:24.545 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:26.521 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:27.320 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:27.321 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:32.031 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:32.031 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:32.142 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:32.860 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:34.036 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:35.727 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:35.838 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:35.838 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:37.220 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:37.295 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:37.296 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:38.221 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:38.284 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:38.284 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:39.050 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:26:40.901 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:41.545 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:41.546 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:45.835 BaseTest:147 - Appium Server stopped.............
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:26:59.200 BaseTest:87 - Log file path: logs\Android_Pixel_4
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:11.288 BaseTest:106 - sessionId: 8ac9a47b-fd9e-4ca5-928b-eb811e2c6c23
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:12.218 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:12.218 ProductTests:65 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:13.696 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:14.518 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:15.255 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:17.932 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:18.088 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:18.088 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:19.363 BasePage:34 - Sauce Labs Backpack is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:21.352 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:21.422 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:21.423 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:22.896 BasePage:62 - Attribute: text value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:22.987 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:22.988 VerificationUtils:27 - expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:29.055 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:29.153 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:29.154 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:29.531 ProductTests:74 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:29.531 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:37.778 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:37.778 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:38.057 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:38.827 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:39.997 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:41.872 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:41.948 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:41.948 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:43.431 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:43.513 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:43.513 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:44.624 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:44.707 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:44.708 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:45.724 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:47.564 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:48.554 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:48.555 ProductTests:75 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:54.243 ProductTests:64 - ---------------------------------------------------
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:27:54.244 ProductTests:65 - ******************* Test started: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:54.885 BasePage:55 - Filling standard_user in Username Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:56.012 BasePage:55 - Filling secret_sauce in Password Textbox
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:57.115 BasePage:41 - Login button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:59.762 BasePage:62 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:59.849 VerificationUtils:26 - Actual: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:27:59.850 VerificationUtils:27 - expected: PRODUCTS
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:01.436 BasePage:62 - Attribute: text value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:01.562 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:01.563 VerificationUtils:27 - expected: Sauce Labs Backpack
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:03.688 BasePage:62 - Attribute: text value for $29.99 is - $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:03.764 VerificationUtils:26 - Actual: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:03.764 VerificationUtils:27 - expected: $29.99
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:04.801 BasePage:41 - Settings button is clicked
+[logsAndroid_Pixel_4 INFO ] 2021-11-01 13:28:06.657 BasePage:41 - Logout button is clicked
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:28:07.646 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
+[logsAndroid_Pixel_4 DEBUG] 2021-11-01 13:28:07.646 ProductTests:75 - ---------------------------------------------------
