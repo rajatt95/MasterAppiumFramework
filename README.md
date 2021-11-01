@@ -5,9 +5,24 @@ With further updates - This project is designed and developed with the help of -
 ------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/26399692/138761285-c49b6879-47cf-4a52-a877-ae20cdf4ef94.png)
 ![image](https://user-images.githubusercontent.com/26399692/138761338-472a1491-556d-4342-8c15-341a58faba70.png)
-
 ------------------------------------------------------------
-Updations done:
+Updations and Implementations done:
+------------------------------------------------------------
+1. Application used: https://github.com/saucelabs/sample-app-mobile/releases (V2.7.1)
+2. ExtentReports V5.0.9
+3. User has options for customization
+4. Email to User(s) using Java mail API
+5. Retry failed test cases
+6. Custom Enums, Exceptions, Annotations 
+7. Zip the ExtentReports directory into Project path (you can send this Zip file as well as an Attachment in Email)
+8. Automatically open the report after tests execution.
+9. Start and Stop Appium Server programmatically
+10. Videos for Failed test cases
+11. Pass Test Data from JSON file
+12. Pass Expected Data from XML file
+13. Send EMail using Java mail API to User(s) with attachment(s).  
+14. Jenkins job setup
+15. Send EMail using Jenkins to User(s) with attachment(s).  
 ------------------------------------------------------------
 **ExtentReports V5.0.9** 
 1. User can apply the Filters - 
@@ -27,16 +42,7 @@ Updations done:
 **Email to User(s) using Java mail API**
 ![image](https://user-images.githubusercontent.com/26399692/139594288-8de6e123-0154-46df-a9e9-26fc1c8fa161.png)
 ------------------------------------------------------------
-**Others implementations:**
-1. Retry failed test cases
-2. Custom Enums, Exceptions, Annotations 
-3. Zip the ExtentReports directory into Project path (you can send this Zip file as well as an Attachment in Email)
-4. Automatically open the report after tests execution.
-5. Start and Stop Appium Server programmatically
-6. Videos for Failed test cases
-7. Pass Test Data from JSON file
-8. Pass Expected Data from XML file
-9. Send EMail using Java mail API to User(s) with attachment(s).  
+**Send EMail using Java mail API to User(s) with attachment(s)**
  - https://mvnrepository.com/artifact/javax.mail/mail/1.4.7
  - https://www.tutorialspoint.com/java/java_sending_email.htm
  - Gmail -> Manage your Google account: 
@@ -48,8 +54,8 @@ Updations done:
 1. Pull the code into your machine and import in IDE (Eclipse/intelliJ).
 2. Go to testng.xml -> Run this file as TestNG suite (you should have done the setup for Appium)
   It should start the execution -> Parallel Testing.
-  
+  NOTE: Make sure devices (Either Emulator or Real-Device) are ready 
 ![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
 ![image](https://user-images.githubusercontent.com/26399692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
-
 ------------------------------------------------------------
+
