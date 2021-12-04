@@ -60,7 +60,6 @@ Updations and Implementations done:
 ------------------------------------------------------------
 **NOTE: **
 1. Make sure devices (Either Emulator or Real-Device) are ready 
-2. This is for Appium Sever start and stop programatically -> com.appium.utils.AppiumServerUtils -> You need to give the path of Node installation
        
 ![image](https://user-images.githubusercontent.com/26399692/138760824-639b8609-e5db-48aa-8323-1241551e427c.png) 
 ![image](https://user-images.githubusercontent.com/26399692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
