@@ -1,7 +1,7 @@
 package com.appium.pages;
 
 import com.appium.base.BasePage;
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.TEXT;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -53,7 +53,7 @@ public class LoginPage extends BasePage {
 	}
 
 	public String getErrorTxt() {
-		return getAttribute(msgErrorTxt, FrameworkConstants.TEXT);
+		return getAttribute(msgErrorTxt, TEXT);
 	}
 
 }

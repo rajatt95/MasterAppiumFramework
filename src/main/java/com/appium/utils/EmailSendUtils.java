@@ -1,5 +1,7 @@
 package com.appium.utils;
 
+import static com.appium.constants.FrameworkConstants.Project_Name;
+import static com.appium.constants.FrameworkConstants.YES;
 import static com.appium.java_Mail_API.EmailConfig.FROM;
 import static com.appium.java_Mail_API.EmailConfig.PASSWORD;
 import static com.appium.java_Mail_API.EmailConfig.PORT;
@@ -19,7 +21,7 @@ public class EmailSendUtils {
 	 */
 	public static void sendEmail(int count_totalTCs, int count_passedTCs, int count_failedTCs, int count_skippedTCs) {
 
-		if (ConfigLoader.getInstance().getSendEmailToUsers().equalsIgnoreCase(FrameworkConstants.YES)) {
+		if (ConfigLoader.getInstance().getSendEmailToUsers().equalsIgnoreCase(YES)) {
 			System.out.println("File name: " + FrameworkConstants.getExtentReportFilePath());
 
 			String messageBody = getTestCasesCountInFormat(count_totalTCs, count_passedTCs, count_failedTCs,
@@ -57,7 +59,7 @@ public class EmailSendUtils {
 
 		return "<html>\r\n" + "\r\n" + " \r\n" + "\r\n"
 				+ "        <body> \r\n<table class=\"container\" align=\"center\" style=\"padding-top:20px\">\r\n<tr align=\"center\"><td colspan=\"4\"><h2>"
-				+ FrameworkConstants.Project_Name + "</h2></td></tr>\r\n<tr><td>\r\n\r\n"
+				+ Project_Name + "</h2></td></tr>\r\n<tr><td>\r\n\r\n"
 				+ "       <table style=\"background:#67c2ef;width:120px\" >\r\n"
 				+ "                     <tr><td style=\"font-size: 36px\" class=\"value\" align=\"center\">"
 				+ count_totalTCs + "</td></tr>\r\n"

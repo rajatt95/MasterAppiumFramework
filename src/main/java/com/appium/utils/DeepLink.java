@@ -6,7 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.PLATFORM_iOS;
+import static com.appium.constants.FrameworkConstants.PLATFORM_ANDROID;
 import com.appium.manager.DriverManager;
 import com.appium.manager.PlatformManager;
 
@@ -19,13 +20,13 @@ public class DeepLink {
 		AppiumDriver driver = DriverManager.getDriver();
 
 		String platform = PlatformManager.getPlatform();
-		if (platform.equalsIgnoreCase(FrameworkConstants.PLATFORM_ANDROID)) {
+		if (platform.equalsIgnoreCase(PLATFORM_ANDROID)) {
 			HashMap<String, String> deepUrl = new HashMap<String, String>();
 			deepUrl.put("url", url);
 			deepUrl.put("package", "com.swaglabsmobileapp");
 			driver.executeScript("mobile: deepLink", deepUrl);
 
-		} else if (platform.equalsIgnoreCase(FrameworkConstants.PLATFORM_iOS)) {
+		} else if (platform.equalsIgnoreCase(PLATFORM_iOS)) {
 			By urlBtn = MobileBy.iOSNsPredicateString("type == 'XCUIElementTypeButton' && name CONTAINS 'URL'");
 			By urlFld = MobileBy.iOSNsPredicateString("type == 'XCUIElementTypeTextField' && name CONTAINS 'URL'");
 			By openBtn = MobileBy.iOSNsPredicateString("type == 'XCUIElementTypeButton' && name CONTAINS 'Open'");

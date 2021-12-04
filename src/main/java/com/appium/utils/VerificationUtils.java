@@ -2,7 +2,7 @@ package com.appium.utils;
 
 import org.testng.Assert;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.ASSERTION_FOR;
 import com.appium.reports.ExtentLogger;
 
 public class VerificationUtils {
@@ -12,11 +12,11 @@ public class VerificationUtils {
 		try {
 			logFile(actual, expected);
 			Assert.assertEquals(actual, expected, message);
-			ExtentLogger.pass(FrameworkConstants.ASSERTION_FOR + " - <b> <u>" + message
+			ExtentLogger.pass(ASSERTION_FOR + " - <b> <u>" + message
 					+ "</u> </b>   |   <b><i>Actual: </i> </b>" + actual + " and <b><i> Expected: </i> </b>" + expected,
 					true);
 		} catch (AssertionError assertionError) {
-			ExtentLogger.fail(FrameworkConstants.ASSERTION_FOR + " - <b> <u>" + message
+			ExtentLogger.fail(ASSERTION_FOR + " - <b> <u>" + message
 					+ "   |   <b><i>Actual: </i> </b>" + actual + " and <b><i> Expected: </i> </b>" + expected);
 			Assert.fail(message);
 		}

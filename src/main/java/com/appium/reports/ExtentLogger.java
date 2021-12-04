@@ -1,6 +1,6 @@
 package com.appium.reports;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.YES;
 import com.appium.utils.ConfigLoader;
 import com.appium.utils.ScreenshotUtils;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -44,7 +44,7 @@ public final class ExtentLogger {
 	}
 
 	public static void pass(String message, boolean isScreeshotNeeded) {
-		if (ConfigLoader.getInstance().getPassedStepsScreenshot().equalsIgnoreCase(FrameworkConstants.YES)
+		if (ConfigLoader.getInstance().getPassedStepsScreenshot().equalsIgnoreCase(YES)
 				&& isScreeshotNeeded) {
 			ExtentManager.getExtentTest().pass(message,
 					MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenshotUtils.getBase64Image()).build());
@@ -57,7 +57,7 @@ public final class ExtentLogger {
 		// if
 		// (PropertyUtils.get(ConfigProperties.PASSED_STEPS_SCREENSHOT).equalsIgnoreCase("yes")
 		// && isScreeshotNeeded) {
-		if (ConfigLoader.getInstance().getPassedStepsScreenshot().equalsIgnoreCase(FrameworkConstants.YES)
+		if (ConfigLoader.getInstance().getPassedStepsScreenshot().equalsIgnoreCase(YES)
 				&& isScreeshotNeeded) {
 			/*
 			 * ExtentManager.getExtentTest().pass(message,
@@ -76,7 +76,7 @@ public final class ExtentLogger {
 		// if
 		// (PropertyUtils.get(ConfigProperties.FAILED_STEPS_SCREENSHOT).equalsIgnoreCase("yes")
 		// && isScreeshotNeeded) {
-		if (ConfigLoader.getInstance().getFailedStepsScreenshot().equalsIgnoreCase(FrameworkConstants.YES)
+		if (ConfigLoader.getInstance().getFailedStepsScreenshot().equalsIgnoreCase(YES)
 				&& isScreeshotNeeded) {
 			ExtentManager.getExtentTest().fail(message,
 					MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenshotUtils.getBase64Image()).build());
@@ -89,7 +89,7 @@ public final class ExtentLogger {
 		// if
 		// (PropertyUtils.get(ConfigProperties.FAILED_STEPS_SCREENSHOT).equalsIgnoreCase("yes")
 		// && isScreeshotNeeded) {
-		if (ConfigLoader.getInstance().getFailedStepsScreenshot().equalsIgnoreCase(FrameworkConstants.YES)
+		if (ConfigLoader.getInstance().getFailedStepsScreenshot().equalsIgnoreCase(YES)
 				&& isScreeshotNeeded) {
 			/*
 			 * ExtentManager.getExtentTest().fail(message,
@@ -108,7 +108,7 @@ public final class ExtentLogger {
 		// if
 		// (PropertyUtils.get(ConfigProperties.SKIPPED_STEPS_SCREENSHOT).equalsIgnoreCase("yes")
 		// && isScreeshotNeeded) {
-		if (ConfigLoader.getInstance().getSkippedStepsScreenshot().equalsIgnoreCase(FrameworkConstants.YES)
+		if (ConfigLoader.getInstance().getSkippedStepsScreenshot().equalsIgnoreCase(YES)
 				&& isScreeshotNeeded) {
 			ExtentManager.getExtentTest().skip(message,
 					MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenshotUtils.getBase64Image()).build());
@@ -121,7 +121,7 @@ public final class ExtentLogger {
 		// if
 		// (PropertyUtils.get(ConfigProperties.SKIPPED_STEPS_SCREENSHOT).equalsIgnoreCase("yes")
 		// && isScreeshotNeeded) {
-		if (ConfigLoader.getInstance().getSkippedStepsScreenshot().equalsIgnoreCase(FrameworkConstants.YES)
+		if (ConfigLoader.getInstance().getSkippedStepsScreenshot().equalsIgnoreCase(YES)
 				&& isScreeshotNeeded) {
 			/*
 			 * ExtentManager.getExtentTest().skip(message,
