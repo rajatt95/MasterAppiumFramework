@@ -3,7 +3,7 @@ package com.appium.listeners;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.YES;
 import com.appium.utils.ConfigLoader;
 
 public class RetryFailedTests implements IRetryAnalyzer {
@@ -14,7 +14,7 @@ public class RetryFailedTests implements IRetryAnalyzer {
 	public boolean retry(ITestResult result) {
 
 		boolean value = false;
-		if (ConfigLoader.getInstance().getRetryFailedTests().equalsIgnoreCase(FrameworkConstants.YES)) {
+		if (ConfigLoader.getInstance().getRetryFailedTests().equalsIgnoreCase(YES)) {
 			if (count < retries) {
 				count++;
 				return true;

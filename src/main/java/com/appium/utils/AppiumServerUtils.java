@@ -5,7 +5,18 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.HashMap;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_WIN;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_WIN_NODE_INSTALLATION_PATH;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH;
+import static com.appium.constants.FrameworkConstants.APPIUM_SERVER_LOGS;
+import static com.appium.constants.FrameworkConstants.PATH;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE;
+import static com.appium.constants.FrameworkConstants.ANDROID_HOME;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_MAC_VAR_PATH_VALUE;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_MAC_NODE_INSTALLATION_PATH;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_NUX;
+import static com.appium.constants.FrameworkConstants.PLATFORM_OS_MAC;
 
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
@@ -20,24 +31,32 @@ public class AppiumServerUtils {
 	public static AppiumDriverLocalService getAppiumService() {
 		String os = OSInfoUtils.getOSInfo().toLowerCase();
 
-		if (os.contains(FrameworkConstants.PLATFORM_OS_WIN)) {
+		if (os.contains(PLATFORM_OS_WIN)) {
 			return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
-					.usingDriverExecutable(new File(FrameworkConstants.PLATFORM_OS_WIN_NODE_INSTALLATION_PATH))
-					.withAppiumJS(new File(FrameworkConstants.PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH)).usingPort(4723)
+					.usingDriverExecutable(new File(PLATFORM_OS_WIN_NODE_INSTALLATION_PATH))
+					.withAppiumJS(new File(PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH)).usingPort(4723)
 					.withArgument(GeneralServerFlag.SESSION_OVERRIDE)
-					.withLogFile(new File(FrameworkConstants.APPIUM_SERVER_LOGS)));
-		} else if (os.contains(FrameworkConstants.PLATFORM_OS_MAC)) {
+					.withLogFile(new File(APPIUM_SERVER_LOGS)));
+			
+//			return AppiumDriverLocalService.
+//					buildService(new AppiumServiceBuilder().
+//					usingAnyFreePort().
+//					withArgument(GeneralServerFlag.SESSION_OVERRIDE).
+//					withLogFile(new File(FrameworkConstants.APPIUM_SERVER_LOGS)));
+			
+			
+		} else if (os.contains(PLATFORM_OS_MAC)) {
 			HashMap<String, String> environment = new HashMap<String, String>();
-			environment.put(FrameworkConstants.PATH,
-					FrameworkConstants.PLATFORM_OS_MAC_VAR_PATH_VALUE + System.getenv(FrameworkConstants.PATH));
-			environment.put(FrameworkConstants.ANDROID_HOME, FrameworkConstants.PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE);
+			environment.put(PATH,
+					PLATFORM_OS_MAC_VAR_PATH_VALUE + System.getenv(PATH));
+			environment.put(ANDROID_HOME, PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE);
 
 			return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
-					.usingDriverExecutable(new File(FrameworkConstants.PLATFORM_OS_MAC_NODE_INSTALLATION_PATH))
-					.withAppiumJS(new File(FrameworkConstants.PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH)).usingPort(4723)
+					.usingDriverExecutable(new File(PLATFORM_OS_MAC_NODE_INSTALLATION_PATH))
+					.withAppiumJS(new File(PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH)).usingPort(4723)
 					.withArgument(GeneralServerFlag.SESSION_OVERRIDE).withEnvironment(environment)
-					.withLogFile(new File(FrameworkConstants.APPIUM_SERVER_LOGS)));
-		} else if (os.contains(FrameworkConstants.PLATFORM_OS_NUX)) {
+					.withLogFile(new File(APPIUM_SERVER_LOGS)));
+		} else if (os.contains(PLATFORM_OS_NUX)) {
 
 		}
 		return null;

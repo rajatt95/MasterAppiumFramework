@@ -1,26 +1,31 @@
 package com.appium.pages;
 
-import com.appium.base.BaseTest;
-import com.appium.constants.FrameworkConstants;
+import com.appium.base.BasePage;
+import static com.appium.constants.FrameworkConstants.TEXT;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
-public class LoginPage extends BaseTest {
+public class LoginPage extends BasePage {
 
 	@AndroidFindBy(accessibility = "test-Username")
+	@iOSXCUITFindBy(id = "test-Username")
 	private MobileElement txtFldUsername;
 	private String txtFldUsernameTxt = "Username Textbox";
 
 	@AndroidFindBy(accessibility = "test-Password")
+	@iOSXCUITFindBy(id = "test-Password")
 	private MobileElement txtFldPassword;
 	private String txtFldPasswordTxt = "Password Textbox";
 
 	@AndroidFindBy(accessibility = "test-LOGIN")
+	@iOSXCUITFindBy(id = "test-LOGIN")
 	private MobileElement btnLogin;
 	private String btnLoginTxt = "Login button";
 
 	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"test-Error message\"]/android.widget.TextView")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText")
 	private MobileElement msgErrorTxt;
 
 	public LoginPage enterUsername(String userName) {
@@ -48,7 +53,7 @@ public class LoginPage extends BaseTest {
 	}
 
 	public String getErrorTxt() {
-		return getAttribute(msgErrorTxt, FrameworkConstants.TEXT);
+		return getAttribute(msgErrorTxt, TEXT);
 	}
 
 }

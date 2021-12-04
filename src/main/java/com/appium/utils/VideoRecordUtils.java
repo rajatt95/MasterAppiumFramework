@@ -9,7 +9,7 @@ import java.util.Map;
 import org.apache.commons.codec.binary.Base64;
 import org.testng.ITestResult;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.YES;
 import com.appium.manager.DateTimeManager;
 import com.appium.manager.DriverManager;
 
@@ -19,14 +19,14 @@ public class VideoRecordUtils {
 
 	public static void startRecording() {
 
-		if (ConfigLoader.getInstance().getFailedTestsVideo().equalsIgnoreCase(FrameworkConstants.YES)) {
+		if (ConfigLoader.getInstance().getFailedTestsVideo().equalsIgnoreCase(YES)) {
 			// ((CanRecordScreen) driver).startRecordingScreen();
 			((CanRecordScreen) DriverManager.getDriver()).startRecordingScreen();
 		}
 	}
 
 	public static void stopRecording(ITestResult result) {
-		if (ConfigLoader.getInstance().getFailedTestsVideo().equalsIgnoreCase(FrameworkConstants.YES)) {
+		if (ConfigLoader.getInstance().getFailedTestsVideo().equalsIgnoreCase(YES)) {
 			/* Do whatever only when Test is failed */
 			if (result.getStatus() == 2) {
 				String media = ((CanRecordScreen) DriverManager.getDriver()).stopRecordingScreen();
