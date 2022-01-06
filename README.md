@@ -4,6 +4,7 @@ With further updates - This project is designed and developed with the help of -
 2. YouTube playlist (Testing Mini Bytes)
 ------------------------------------------------------------
 [Appium setup on Windows.pdf](https://github.com/rajatt95/MasterAppiumFramework/files/7458111/Appium.setup.on.Windows.pdf)
+[Appium setup on Mac - iOS.pdf](https://github.com/rajatt95/MasterAppiumFramework/files/7820941/Appium.setup.on.Mac.-.iOS.pdf)
 ------------------------------------------------------------
 ![image](https://user-images.githubusercontent.com/26399692/138761285-c49b6879-47cf-4a52-a877-ae20cdf4ef94.png)
 ![image](https://user-images.githubusercontent.com/26399692/138761338-472a1491-556d-4342-8c15-341a58faba70.png)
