@@ -46,6 +46,8 @@ public class AppiumServerUtils {
 			
 			
 		} else if (os.contains(PLATFORM_OS_MAC)) {
+		
+			System.out.println("os.contains(PLATFORM_OS_MAC");
 			HashMap<String, String> environment = new HashMap<String, String>();
 			environment.put(PATH,
 					PLATFORM_OS_MAC_VAR_PATH_VALUE + System.getenv(PATH));

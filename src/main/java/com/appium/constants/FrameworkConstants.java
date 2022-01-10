@@ -88,11 +88,14 @@ public class FrameworkConstants {
 	/* ANDROID */
 	public static final String CAPABILITY_ANDROID_APP_PACKAGE = "appPackage";
 	public static final String CAPABILITY_ANDROID_APP_ACTIVITY = "appActivity";
-
 	public static final String CAPABILITY_ANDROID_SYSTEM_PORT = "systemPort";
 	public static final String CAPABILITY_ANDROID_CHROME_DRIVER_PORT = "chromeDriverPort";
 	public static final String CAPABILITY_ANDROID_AVD = "avd";
+
 	/* iOS */
+	public static final String CAPABILITY_iOS_BUNDLE_ID = "bundleId";
+	public static final String CAPABILITY_iOS_WDA_LOCAL_PORT = "wdaLocalPort";
+	public static final String CAPABILITY_iOS_Webkit_Debug_Proxy_PORT = "webkitDebugProxyPort";
 
 	/* Capabilities - END */
 
@@ -107,11 +110,17 @@ public class FrameworkConstants {
 
 	/* MAC */
 	public static final String PLATFORM_OS_MAC = "mac";
-	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/usr/local/bin/node";
-	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/usr/local/lib/node_modules/appium/build/lib/main.js";
 
-	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/omprakashchavan/Library/Android/sdk/tools:/Users/omprakashchavan/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin";
-	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/omprakashchavan/Library/Android/sdk";
+	//	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/usr/local/bin/node";
+//	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/usr/local/lib/node_modules/appium/build/lib/main.js";
+//	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/omprakashchavan/Library/Android/sdk/tools:/Users/omprakashchavan/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin";
+//	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/omprakashchavan/Library/Android/sdk";
+
+	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/opt/homebrew/bin/node";//where node
+	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/opt/homebrew/lib/node_modules/appium/build/lib/main.js";//where appium
+	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk/tools:/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin";	
+	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk";
+
 	public static final String PATH = "PATH";
 	public static final String ANDROID_HOME = "ANDROID_HOME";
 

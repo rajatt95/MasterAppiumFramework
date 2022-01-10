@@ -57,14 +57,18 @@ public class BasePage {
 		waitForVisibility(mobileElement);
 		TestUtils.log().info("Filling " + txt + " in " + mobileElement.getText());
 		ExtentLogger.info("Filling <b>" + txt + "</b> in <b>" + mobileElement.getText() + "</b>");
+		mobileElement.clear();
 		mobileElement.sendKeys(txt);
+
 	}
 
 	public void sendKeys(MobileElement mobileElement, String txt, String elementName) {
 		waitForVisibility(mobileElement);
 		TestUtils.log().info("Filling " + txt + " in " + elementName);
 		ExtentLogger.info("Filling <b>" + txt + "</b> in <b>" + elementName + "</b>");
+		mobileElement.clear();
 		mobileElement.sendKeys(txt);
+
 	}
 
 	public String getAttribute(MobileElement mobileElement, String attribute) {
