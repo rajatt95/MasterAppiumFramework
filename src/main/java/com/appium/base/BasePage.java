@@ -1,14 +1,24 @@
 package com.appium.base;
 
 import static com.appium.constants.FrameworkConstants.EXPLICIT_WAIT;
+import static com.appium.constants.FrameworkConstants.WAIT;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.appium.manager.DriverManager;
 import com.appium.reports.ExtentLogger;
+import com.appium.reports.ExtentManager;
+import com.appium.utils.ScreenshotUtils;
 import com.appium.utils.TestUtils;
+import com.appium.utils.VerificationUtils;
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.google.common.util.concurrent.Uninterruptibles;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -47,14 +57,18 @@ public class BasePage {
 		waitForVisibility(mobileElement);
 		TestUtils.log().info("Filling " + txt + " in " + mobileElement.getText());
 		ExtentLogger.info("Filling <b>" + txt + "</b> in <b>" + mobileElement.getText() + "</b>");
+		mobileElement.clear();
 		mobileElement.sendKeys(txt);
+
 	}
 
 	public void sendKeys(MobileElement mobileElement, String txt, String elementName) {
 		waitForVisibility(mobileElement);
 		TestUtils.log().info("Filling " + txt + " in " + elementName);
 		ExtentLogger.info("Filling <b>" + txt + "</b> in <b>" + elementName + "</b>");
+		mobileElement.clear();
 		mobileElement.sendKeys(txt);
+
 	}
 
 	public String getAttribute(MobileElement mobileElement, String attribute) {
@@ -68,4 +82,36 @@ public class BasePage {
 		 */return mobileElement.getAttribute(attribute);
 	}
 
+	
+	protected void captureScreenshot() {
+		ExtentManager.getExtentTest().info("Capturing Screenshot",
+				MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenshotUtils.getBase64Image()).build());
+	}
+
+	protected void waitForSomeTime() {
+		Uninterruptibles.sleepUninterruptibly(WAIT, TimeUnit.SECONDS);
+	}
+
+	protected void waitForGivenTime(long time) {
+		Uninterruptibles.sleepUninterruptibly(time, TimeUnit.SECONDS);
+	}
+
+	protected void webElementPresent(MobileElement mobileElement, String elementName) {
+		VerificationUtils.validate(isDisplayed(mobileElement), true, elementName + " presence");
+	}
+
+	protected void webElementAbsent(MobileElement mobileElement, String elementName) {
+		VerificationUtils.validate(isDisplayed(mobileElement), false, elementName + " absence");
+	}
+
+	private boolean isDisplayed(MobileElement element) {
+		try {
+			waitForVisibility(element);
+			return element.isDisplayed();
+		} catch (NoSuchElementException | TimeoutException exception) {
+			ExtentLogger.fail("Element is not present");
+			return false;
+		}
+	}
+	
 }

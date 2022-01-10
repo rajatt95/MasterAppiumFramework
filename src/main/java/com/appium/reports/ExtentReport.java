@@ -9,6 +9,7 @@ import static com.appium.constants.FrameworkConstants.ICON_LAPTOP;
 import static com.appium.constants.FrameworkConstants.ICON_SOCIAL_GITHUB;
 import static com.appium.constants.FrameworkConstants.ICON_SOCIAL_LINKEDIN;
 import static com.appium.constants.FrameworkConstants.ICON_ANDROID;
+import static com.appium.constants.FrameworkConstants.Project_Name;
 
 import com.appium.constants.FrameworkConstants;
 import com.appium.enums.AuthorType;
@@ -50,8 +51,8 @@ public final class ExtentReport {
 
 			// spark.config().setEncoding("utf-8");
 			spark.config().setTheme(Theme.STANDARD);
-			spark.config().setDocumentTitle(FrameworkConstants.Project_Name + " - ALL");
-			spark.config().setReportName(FrameworkConstants.Project_Name + " - ALL");
+			spark.config().setDocumentTitle(Project_Name + " - ALL");
+			spark.config().setReportName(Project_Name + " - ALL");
 
 			extent.setSystemInfo("Organization", "Nagarro");
 			extent.setSystemInfo("Employee",

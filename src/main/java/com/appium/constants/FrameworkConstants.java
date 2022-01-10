@@ -4,6 +4,7 @@ import java.util.Date;
 
 import com.appium.utils.ConfigLoader;
 import com.appium.utils.OSInfoUtils;
+import com.appium.utils.UsernameUtils;
 
 public class FrameworkConstants {
 
@@ -14,13 +15,12 @@ public class FrameworkConstants {
 	public static final String RESOURCES_MAIN_PATH = PROJECT_LOCATION + "/src/main/resources/";
 	public static final String RESOURCES_TEST_PATH = PROJECT_LOCATION + "/src/test/resources/";
 
-	
 	/* ICONS - START */
 	public static final String ICON_SMILEY_PASS = "<i class='fa fa-smile-o' style='font-size:24px'></i>";
 	public static final String ICON_SMILEY_SKIP = "<i class=\"fas fa-frown-open\"></i>";
 	public static final String ICON_SMILEY_FAIL = "<i class='fa fa-frown-o' style='font-size:24px'></i>";
 	public static final String ICON_BUG = "<i class='fa fa-bug' ></i>";
-	
+
 	public static final String ICON_SOCIAL_LINKEDIN_URL = "https://www.linkedin.com/in/rajat-v-3b0685128/";
 	public static final String ICON_SOCIAL_GITHUB_URL = "https://github.com/rajatt95";
 	public static final String ICON_SOCIAL_LINKEDIN = "<a href='" + ICON_SOCIAL_LINKEDIN_URL
@@ -29,11 +29,9 @@ public class FrameworkConstants {
 			+ "'><i class='fa fa-github-square' style='font-size:24px'></i></a>";
 
 	public static final String ICON_LAPTOP = "<i class='fa fa-laptop' style='font-size:18px'></i>";
-	public static final String ICON_ANDROID ="<i class=\"fa fa-android\"></i>";
+	public static final String ICON_ANDROID = "<i class=\"fa fa-android\"></i>";
 	/* ICONS - END */
 
-
-	
 	public static final String ASSERTION_FOR = "Assertion for ";
 	public static final String LOGS = "logs";
 
@@ -48,6 +46,7 @@ public class FrameworkConstants {
 
 	public static final String TEXT = "text";
 	public static final long EXPLICIT_WAIT = 10;
+	public static final long WAIT = 5;
 
 	public static final String APPIUM_SERVER_LOGS = "ServerLogs/server.log";
 	public static final String SERVER_LOGS = "ServerLogs";
@@ -89,11 +88,14 @@ public class FrameworkConstants {
 	/* ANDROID */
 	public static final String CAPABILITY_ANDROID_APP_PACKAGE = "appPackage";
 	public static final String CAPABILITY_ANDROID_APP_ACTIVITY = "appActivity";
-
 	public static final String CAPABILITY_ANDROID_SYSTEM_PORT = "systemPort";
 	public static final String CAPABILITY_ANDROID_CHROME_DRIVER_PORT = "chromeDriverPort";
 	public static final String CAPABILITY_ANDROID_AVD = "avd";
+
 	/* iOS */
+	public static final String CAPABILITY_iOS_BUNDLE_ID = "bundleId";
+	public static final String CAPABILITY_iOS_WDA_LOCAL_PORT = "wdaLocalPort";
+	public static final String CAPABILITY_iOS_Webkit_Debug_Proxy_PORT = "webkitDebugProxyPort";
 
 	/* Capabilities - END */
 
@@ -101,15 +103,24 @@ public class FrameworkConstants {
 	/* WINDOWS */
 	public static final String PLATFORM_OS_WIN = "win";
 	public static final String PLATFORM_OS_WIN_NODE_INSTALLATION_PATH = "C:\\Program Files\\nodejs\\node.exe";
-	public static final String PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH = "C:\\Users\\rajatverma01\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
+	// public static final String PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH =
+	// "C:\\Users\\rajatverma01\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
+	public static final String PLATFORM_OS_WIN_APPIUM_INSTALLATION_PATH = "C:\\Users\\" + UsernameUtils.getUserName()
+			+ "\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
 
 	/* MAC */
 	public static final String PLATFORM_OS_MAC = "mac";
-	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/usr/local/bin/node";
-	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/usr/local/lib/node_modules/appium/build/lib/main.js";
 
-	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/omprakashchavan/Library/Android/sdk/tools:/Users/omprakashchavan/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin";
-	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/omprakashchavan/Library/Android/sdk";
+	//	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/usr/local/bin/node";
+//	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/usr/local/lib/node_modules/appium/build/lib/main.js";
+//	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/omprakashchavan/Library/Android/sdk/tools:/Users/omprakashchavan/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin";
+//	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/omprakashchavan/Library/Android/sdk";
+
+	public static final String PLATFORM_OS_MAC_NODE_INSTALLATION_PATH = "/opt/homebrew/bin/node";//where node
+	public static final String PLATFORM_OS_MAC_APPIUM_INSTALLATION_PATH = "/opt/homebrew/lib/node_modules/appium/build/lib/main.js";//where appium
+	public static final String PLATFORM_OS_MAC_VAR_PATH_VALUE = "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk/tools:/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin";	
+	public static final String PLATFORM_OS_MAC_VAR_ANDROID_HOME_VALUE = "/Users/"+UsernameUtils.getUserName()+"/Library/Android/sdk";
+
 	public static final String PATH = "PATH";
 	public static final String ANDROID_HOME = "ANDROID_HOME";
 

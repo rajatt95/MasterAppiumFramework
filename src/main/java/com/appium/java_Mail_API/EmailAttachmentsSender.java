@@ -1,5 +1,7 @@
 package com.appium.java_Mail_API;
 
+import static com.appium.constants.FrameworkConstants.TRUE;
+
 import java.io.IOException;
 import java.util.Date;
 import java.util.Properties;
@@ -38,8 +40,8 @@ public class EmailAttachmentsSender {
 		Properties properties = new Properties();
 		properties.put("mail.smtp.host", host);
 		properties.put("mail.smtp.port", port);
-		properties.put("mail.smtp.auth", "true");
-		properties.put("mail.smtp.starttls.enable", "true");
+		properties.put("mail.smtp.auth", TRUE);
+		properties.put("mail.smtp.starttls.enable", TRUE);
 		properties.put("mail.user", userName);
 		properties.put("mail.password", password);
 

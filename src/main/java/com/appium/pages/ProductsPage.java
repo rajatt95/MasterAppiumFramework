@@ -2,8 +2,8 @@ package com.appium.pages;
 
 import com.appium.base.BasePage;
 import com.appium.components.MenuPage;
-import com.appium.constants.FrameworkConstants;
 
+import static com.appium.constants.FrameworkConstants.TEXT;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
@@ -12,6 +12,7 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 public class ProductsPage extends BasePage {
 
 	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"test-Cart drop zone\"]/android.view.ViewGroup/android.widget.TextView")
+	//@iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]")
 	private MobileElement productTitle;
 
@@ -36,15 +37,15 @@ public class ProductsPage extends BasePage {
 
 	public String getTitle() {
 		// return getAttribute(productTitle, "text");
-		return getAttribute(productTitle, FrameworkConstants.TEXT);
+		return getAttribute(productTitle, TEXT);
 	}
 
 	public String getSLBTitle() {
-		return getAttribute(SLBTitle, FrameworkConstants.TEXT);
+		return getAttribute(SLBTitle, TEXT);
 	}
 
 	public String getSLBPrice() {
-		return getAttribute(SLBPrice, FrameworkConstants.TEXT);
+		return getAttribute(SLBPrice, TEXT);
 	}
 
 	public ProductDetailsPage pressSLBTitle() {

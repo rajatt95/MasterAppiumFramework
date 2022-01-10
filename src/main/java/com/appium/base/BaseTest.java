@@ -97,7 +97,10 @@ public class BaseTest {
 			}
 			/* Configuration for iOS device(s) */
 			else if (platformName.equalsIgnoreCase(PLATFORM_iOS)) {
-				driver = CapabilityUtils.setCapabilityFor_iOS(url, caps);
+				//driver = CapabilityUtils.setCapabilityFor_iOS(url, caps);
+				driver = CapabilityUtils.setCapabilityFor_iOS(udid, deviceName, wdaLocalPort,
+						webkitDebugProxyPort, url, caps);
+
 			} else {
 				throw new Exception("Invalid Platform: " + platformName);
 			}

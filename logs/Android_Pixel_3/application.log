@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [logsAndroid_Pixel_3 DEBUG] 2021-11-01 12:45:20.702 BaseTest:87 - Log file path: logs\Android_Pixel_3
 [logsAndroid_Pixel_3 DEBUG] 2021-11-01 12:49:14.903 BaseTest:87 - Log file path: logs\Android_Pixel_3
 [logsAndroid_Pixel_3 DEBUG] 2021-11-01 12:49:41.650 BaseTest:106 - sessionId: eb9ca6ff-3a9e-4913-8362-b103b8c30240
@@ -435,3 +436,69 @@
 [logsAndroid_Pixel_3 DEBUG] 2021-11-01 13:43:22.036 ProductTests:74 - ******************* Test ended: validateProductOnProductsPage*******************
 [logsAndroid_Pixel_3 DEBUG] 2021-11-01 13:43:22.037 ProductTests:75 - ---------------------------------------------------
 [logsAndroid_Pixel_3 DEBUG] 2021-11-01 13:43:28.434 BaseTest:147 - Appium Server stopped.............
+=======
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:18.788 BaseTest:87 - Log file path: logs/Android_Pixel_3
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:44.001 BaseTest:109 - sessionId: df9afca1-38d4-43ef-b55d-a832fcc66b54
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:45.014 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:45.015 LoginTests:47 - ******************* Test started: invalidPassword*******************
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:45.980 BasePage:67 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:48.002 BasePage:67 - Filling invalidpassword in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:50.041 BasePage:51 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:52.931 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:53.021 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:53.022 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:53.688 LoginTests:55 - ******************* Test ended: invalidPassword*******************
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:53.690 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:55.544 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:55.544 LoginTests:47 - ******************* Test started: invalidUserName*******************
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:55.671 BasePage:67 - Filling invalidusername in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:57.242 BasePage:67 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:59.012 BasePage:51 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:00.122 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:01.141 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:01.144 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:02.015 LoginTests:55 - ******************* Test ended: invalidUserName*******************
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:02.016 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:04.116 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:04.127 LoginTests:47 - ******************* Test started: successfulLogin*******************
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:05.089 BasePage:67 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:07.239 BasePage:67 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:08.878 BasePage:51 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:11.669 BasePage:76 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:11.976 VerificationUtils:26 - Actual: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:11.997 VerificationUtils:27 - Expected: PRODUCTS
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:13.524 LoginTests:55 - ******************* Test ended: successfulLogin*******************
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:13.525 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:36:45.785 BaseTest:87 - Log file path: logs/Android_Pixel_3
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:02.188 BaseTest:109 - sessionId: 471d2c90-dfca-4d36-ad31-b3bcc3ac2cd6
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:03.940 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:03.944 LoginTests:47 - ******************* Test started: invalidPassword*******************
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:05.147 BasePage:67 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:07.545 BasePage:67 - Filling invalidpassword in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:09.285 BasePage:51 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:10.368 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:10.425 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:10.425 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:11.388 LoginTests:55 - ******************* Test ended: invalidPassword*******************
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:11.390 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:13.206 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:13.208 LoginTests:47 - ******************* Test started: invalidUserName*******************
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:13.452 BasePage:67 - Filling invalidusername in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:15.622 BasePage:67 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:17.128 BasePage:51 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:18.295 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:18.357 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:18.357 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:18.906 LoginTests:55 - ******************* Test ended: invalidUserName*******************
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:18.906 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:20.534 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:20.535 LoginTests:47 - ******************* Test started: successfulLogin*******************
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:20.662 BasePage:67 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:22.634 BasePage:67 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:24.613 BasePage:51 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:27.642 BasePage:76 - Attribute: text value for PRODUCTS is - PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:27.794 VerificationUtils:26 - Actual: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:27.795 VerificationUtils:27 - Expected: PRODUCTS
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:29.237 LoginTests:55 - ******************* Test ended: successfulLogin*******************
+[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:29.238 LoginTests:56 - ---------------------------------------------------
+>>>>>>> develop5

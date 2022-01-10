@@ -2,7 +2,7 @@ package com.appium.utils;
 
 import java.util.Properties;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.RESOURCES_MAIN_PATH;
 
 /*Singleton Design pattern*/
 public class ConfigLoader {
@@ -37,7 +37,7 @@ public class ConfigLoader {
 	}
 
 	private Properties getConfigPropertyFile(String configFile) {
-		return PropertyUtils.propertyLoader(FrameworkConstants.RESOURCES_MAIN_PATH + configFile);
+		return PropertyUtils.propertyLoader(RESOURCES_MAIN_PATH + configFile);
 	}
 
 	private String getPropertyValue(String propertyKey) {

@@ -1,7 +1,8 @@
 package com.appium.pages;
 
+import static com.appium.constants.FrameworkConstants.TEXT;
+
 import com.appium.base.BasePage;
-import com.appium.constants.FrameworkConstants;
 import com.appium.manager.DriverManager;
 
 import io.appium.java_client.FindsByAndroidUIAutomator;
@@ -29,15 +30,15 @@ public class ProductDetailsPage extends BasePage {
 	private MobileElement backToProductsBtn;
 
 	public String getSLBTitle() {
-		return getAttribute(SLBTitle, FrameworkConstants.TEXT);
+		return getAttribute(SLBTitle, TEXT);
 	}
 
 	public String getSLBTxt() {
-		return getAttribute(SLBTxt, FrameworkConstants.TEXT);
+		return getAttribute(SLBTxt, TEXT);
 	}
 
 	public String getSLBPrice() {
-		return getAttribute(SLBPrice, FrameworkConstants.TEXT);
+		return getAttribute(SLBPrice, TEXT);
 	}
 
 	public ProductDetailsPage scrollToSLBPrice() {

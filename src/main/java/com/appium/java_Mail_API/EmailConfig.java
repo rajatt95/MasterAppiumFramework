@@ -1,6 +1,6 @@
 package com.appium.java_Mail_API;
 
-import com.appium.constants.FrameworkConstants;
+import static com.appium.constants.FrameworkConstants.Project_Name;
 
 /**
  * Data for Sending EMail after execution
@@ -15,5 +15,5 @@ public class EmailConfig {
 
 	/* "**********@gmail.com", */
 	public static final String[] TO = { "testtmail95@gmail.com" };
-	public static final String SUBJECT = FrameworkConstants.Project_Name;
+	public static final String SUBJECT = Project_Name;
 }
