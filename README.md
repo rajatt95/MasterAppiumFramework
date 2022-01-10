@@ -62,8 +62,9 @@ Updations and Implementations done:
 ------------------------------------------------------------
 **NOTE: **
 1. Make sure devices (Either Emulator/Simulator or Real-Device) are ready 
+![image](https://user-images.githubusercontent.com/26399692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
        
-![image](https://user-images.githubusercontent.com/26399<img width="1440" alt="Screenshot 2022-01-10 at 10 37 12 AM" src="https://user-images.githubusercontent.com/26399692/148720612-ec9cc8c1-2d2f-4977-a805-16b4aaffacf5.png">
+<img width="1440" alt="Screenshot 2022-01-10 at 10 37 12 AM" src="https://user-images.githubusercontent.com/26399692/148720612-ec9cc8c1-2d2f-4977-a805-16b4aaffacf5.png">
 692/138760107-8fb49a24-7b81-4236-82a8-9eabbed8203b.png)
 <img width="1440" alt="Screenshot 2022-01-10 at 10 34 55 AM" src="https://user-images.githubusercontent.com/26399692/148720618-a34cc5ae-578c-4716-be05-80c3d31a5e41.png">
 
