@@ -5,12 +5,11 @@
 	<!-- wdaLocalPort and webkitDebugProxyPort must be unique for Parallel execution -->
 	<listeners>
 		<listener class-name="com.appium.listeners.ListenerClass"></listener>
-		<listener
-			class-name="com.appium.listeners.AnnotationTransformer"></listener>
+		<listener class-name="com.appium.listeners.AnnotationTransformer"></listener>
 		<listener class-name="com.appium.listeners.MethodInterceptor"></listener>
 	</listeners>
 
-<!-- 
+	<!-- 
 iPhone 12 -> 7021E632-B569-4371-A010-97EDA4564DAD
 iPhone 13 -> 18FB4726-3A15-498D-8F7E-84965AB706EF
 iPhone XR -> 87BFA7A3-111F-4822-9632-5A4AA74EDC01

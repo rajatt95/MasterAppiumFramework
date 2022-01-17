@@ -1,7 +1,6 @@
 package com.appium.pages;
 
 import com.appium.base.BasePage;
-import static com.appium.constants.FrameworkConstants.TEXT;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -9,6 +8,8 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class LoginPage extends BasePage {
 
+	// @iOSXCUITFindBy(id = "test-Username") -> This id is actually accessibility ID
+	// only (We can get it from Appium Inspector)
 	@AndroidFindBy(accessibility = "test-Username")
 	@iOSXCUITFindBy(id = "test-Username")
 	private MobileElement txtFldUsername;
@@ -25,7 +26,9 @@ public class LoginPage extends BasePage {
 	private String btnLoginTxt = "Login button";
 
 	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"test-Error message\"]/android.widget.TextView")
-	@iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText")
+	// @iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Error
+	// message\"]/child::XCUIElementTypeStaticText")
+	@iOSXCUITFindBy(id = "Username and password do not match any user in this service.")
 	private MobileElement msgErrorTxt;
 
 	public LoginPage enterUsername(String userName) {
@@ -53,7 +56,8 @@ public class LoginPage extends BasePage {
 	}
 
 	public String getErrorTxt() {
-		return getAttribute(msgErrorTxt, TEXT);
+		// return getAttribute(msgErrorTxt, TEXT);
+		return getElementText(msgErrorTxt);
 	}
 
 }

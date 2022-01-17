@@ -12,8 +12,7 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 public class ProductsPage extends BasePage {
 
 	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"test-Cart drop zone\"]/android.view.ViewGroup/android.widget.TextView")
-	//@iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]")
-	@iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"PRODUCTS\"]")
 	private MobileElement productTitle;
 
 	@AndroidFindBy(xpath = "(//android.widget.TextView[@content-desc=\"test-Item title\"])[1]")
@@ -28,6 +27,7 @@ public class ProductsPage extends BasePage {
 
 	public ProductsPage() {
 		super();
+		// Composition
 		menuPage = new MenuPage();
 	}
 
@@ -37,15 +37,19 @@ public class ProductsPage extends BasePage {
 
 	public String getTitle() {
 		// return getAttribute(productTitle, "text");
-		return getAttribute(productTitle, TEXT);
+		// return getAttribute(productTitle, TEXT);
+		return getElementText(productTitle);
 	}
 
 	public String getSLBTitle() {
-		return getAttribute(SLBTitle, TEXT);
+//		return getAttribute(SLBTitle, TEXT);
+		return getElementText(SLBTitle);
 	}
 
 	public String getSLBPrice() {
-		return getAttribute(SLBPrice, TEXT);
+//		return getAttribute(SLBPrice, TEXT);
+		return getElementText(SLBPrice);
+
 	}
 
 	public ProductDetailsPage pressSLBTitle() {

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Test_Suite_Emulator_Pixel_3">
 
-	<!-- systemPort and chromeDriverPort must be unique for Parallel execution -->
+  	<!-- systemPort and chromeDriverPort must be unique for Parallel execution -->
 	<listeners>
 		<listener class-name="com.appium.listeners.ListenerClass"></listener>
 		<listener
