@@ -9,7 +9,7 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 public class SettingsPage extends BasePage {
 
 	@AndroidFindBy(accessibility = "test-LOGOUT")
-	@iOSXCUITFindBy (id = "test-LOGOUT")
+	@iOSXCUITFindBy(id = "test-LOGOUT")
 	private MobileElement logOutBtn;
 	private String logOutBtnTxt = "Logout button";
 

@@ -45,6 +45,8 @@ public class FrameworkConstants {
 	public static final String Project_Name = "Automation Test Suite Report - Master Appium Framework";
 
 	public static final String TEXT = "text";
+	public static final String LABEL = "label";
+
 	public static final long EXPLICIT_WAIT = 10;
 	public static final long WAIT = 5;
 
