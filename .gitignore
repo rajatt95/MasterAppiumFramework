@@ -9,3 +9,7 @@ test-output
 ExtentReports
 ExtentReports.zip
 z_others
+ServerLogs/application.log
+*.log
+.DS_Store
+ServerLogs/application.log
