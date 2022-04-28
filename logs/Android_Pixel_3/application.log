@@ -1,398 +1,100 @@
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:18.788 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:44.001 BaseTest:109 - sessionId: df9afca1-38d4-43ef-b55d-a832fcc66b54
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:45.014 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:45.015 LoginTests:47 - ******************* Test started: invalidPassword*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:45.980 BasePage:67 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:48.002 BasePage:67 - Filling invalidpassword in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:50.041 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:52.931 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:53.021 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:53.022 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:53.688 LoginTests:55 - ******************* Test ended: invalidPassword*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:53.690 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:55.544 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:38:55.544 LoginTests:47 - ******************* Test started: invalidUserName*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:55.671 BasePage:67 - Filling invalidusername in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:57.242 BasePage:67 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:38:59.012 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:00.122 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:01.141 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:01.144 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:02.015 LoginTests:55 - ******************* Test ended: invalidUserName*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:02.016 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:04.116 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:04.127 LoginTests:47 - ******************* Test started: successfulLogin*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:05.089 BasePage:67 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:07.239 BasePage:67 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:08.878 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:11.669 BasePage:76 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:11.976 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-10 00:39:11.997 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:13.524 LoginTests:55 - ******************* Test ended: successfulLogin*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 00:39:13.525 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:36:45.785 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:02.188 BaseTest:109 - sessionId: 471d2c90-dfca-4d36-ad31-b3bcc3ac2cd6
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:03.940 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:03.944 LoginTests:47 - ******************* Test started: invalidPassword*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:05.147 BasePage:67 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:07.545 BasePage:67 - Filling invalidpassword in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:09.285 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:10.368 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:10.425 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:10.425 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:11.388 LoginTests:55 - ******************* Test ended: invalidPassword*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:11.390 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:13.206 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:13.208 LoginTests:47 - ******************* Test started: invalidUserName*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:13.452 BasePage:67 - Filling invalidusername in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:15.622 BasePage:67 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:17.128 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:18.295 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:18.357 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:18.357 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:18.906 LoginTests:55 - ******************* Test ended: invalidUserName*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:18.906 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:20.534 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:20.535 LoginTests:47 - ******************* Test started: successfulLogin*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:20.662 BasePage:67 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:22.634 BasePage:67 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:24.613 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:27.642 BasePage:76 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:27.794 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-10 10:37:27.795 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:29.237 LoginTests:55 - ******************* Test ended: successfulLogin*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 10:37:29.238 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:03:38.111 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:04:52.149 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:15.568 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:31.933 BaseTest:109 - sessionId: cdd0304a-672b-4773-a166-6287c3279fdb
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:32.839 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:32.844 LoginTests:47 - ******************* Test started: invalidPassword*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:33.488 BasePage:67 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:35.036 BasePage:67 - Filling invalidpassword in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:36.799 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:37.940 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:38.033 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:38.034 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:38.679 LoginTests:55 - ******************* Test ended: invalidPassword*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:38.682 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:40.225 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:40.229 LoginTests:47 - ******************* Test started: invalidUserName*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:40.309 BasePage:67 - Filling invalidusername in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:42.105 BasePage:67 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:43.247 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:43.742 BasePage:76 - Attribute: text value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:43.950 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:43.954 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:44.582 LoginTests:55 - ******************* Test ended: invalidUserName*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:44.582 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:45.921 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:45.922 LoginTests:47 - ******************* Test started: successfulLogin*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:46.005 BasePage:67 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:47.334 BasePage:67 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:49.035 BasePage:51 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:51.304 BasePage:76 - Attribute: text value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:51.678 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-10 11:07:51.679 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:52.716 LoginTests:55 - ******************* Test ended: successfulLogin*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-10 11:07:52.721 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:32:14.302 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:32:30.705 BaseTest:109 - sessionId: b95c9a6a-73d1-4cc5-bc3f-346a1fea671a
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:32:31.490 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:32:31.492 ProductTests:53 - ******************* Test started: validateProductOnProductDetailsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:31.935 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:31.967 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:33.145 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:33.249 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:34.960 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:38.286 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:38.382 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:38.382 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:40.550 BasePage:92 - Sauce Labs Backpack is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:44.599 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:44.866 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:44.875 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:47.210 BasePage:154 - Attribute: text - value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:47.445 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:32:47.452 VerificationUtils:27 - Expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:03.984 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:04.074 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:04.074 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:04.434 ProductTests:62 - ******************* Test ended: validateProductOnProductDetailsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:04.434 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:09.502 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:09.505 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:09.663 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:09.700 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:11.332 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:11.387 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:13.003 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:14.407 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:14.445 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:14.445 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:15.293 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:15.344 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:15.344 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:16.022 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:16.094 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:16.094 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:16.924 BasePage:99 - Settings button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:18.717 BasePage:99 - Logout button is clicked
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:19.487 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:19.487 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:23.641 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:23.662 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:23.906 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:23.978 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:25.587 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:25.658 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:26.780 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:28.110 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:28.162 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:28.162 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:28.958 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:29.041 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:29.042 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:29.788 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:29.841 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:29.842 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:30.434 BasePage:99 - Settings button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:32.199 BasePage:99 - Logout button is clicked
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:32.839 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:32.840 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:37.548 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:37.550 LoginTests:47 - ******************* Test started: invalidPassword*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:37.612 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:37.640 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:39.276 BasePage:122 - Filling invalidpassword in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:39.318 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:40.912 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:41.796 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:41.903 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:41.904 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:42.207 LoginTests:55 - ******************* Test ended: invalidPassword*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:42.207 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:43.993 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:43.994 LoginTests:47 - ******************* Test started: invalidUserName*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:44.039 BasePage:122 - Filling invalidusername in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:44.075 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:45.314 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:45.358 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:46.940 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:47.233 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:47.316 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:47.319 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:47.623 LoginTests:55 - ******************* Test ended: invalidUserName*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:47.625 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:48.911 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:48.912 LoginTests:47 - ******************* Test started: successfulLogin*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:48.990 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:49.026 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:50.738 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:50.789 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:52.421 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:53.667 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:53.704 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:33:53.704 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:54.261 LoginTests:55 - ******************* Test ended: successfulLogin*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:33:54.261 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:16.450 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:27.316 BaseTest:109 - sessionId: a50197fa-28f4-4118-af86-d25d432e93bc
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:27.946 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:27.951 ProductTests:53 - ******************* Test started: validateProductOnProductDetailsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:29.086 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:29.130 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:30.794 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:30.827 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:31.958 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:33.933 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:34.036 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:34.037 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:35.384 BasePage:92 - Sauce Labs Backpack is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:36.994 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:37.047 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:37.051 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:38.506 BasePage:154 - Attribute: text - value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:38.588 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:38.588 VerificationUtils:27 - Expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:41.964 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:42.039 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:42.041 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:42.649 ProductTests:62 - ******************* Test ended: validateProductOnProductDetailsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:42.650 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:47.720 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:47.725 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:48.027 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:48.120 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:49.735 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:49.776 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:51.379 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:52.748 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:52.786 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:52.786 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:53.711 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:53.769 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:53.769 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:54.903 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:54.945 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:54.945 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:55.563 BasePage:99 - Settings button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:57:57.319 BasePage:99 - Logout button is clicked
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:58.224 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:57:58.225 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:03.295 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:03.303 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:03.538 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:03.578 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:05.239 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:05.275 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:06.829 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:08.371 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:08.463 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:08.464 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:09.540 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:09.573 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:09.573 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:10.362 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:10.393 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:10.393 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:11.045 BasePage:99 - Settings button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:12.862 BasePage:99 - Logout button is clicked
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:13.667 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:13.673 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:18.153 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:18.156 LoginTests:47 - ******************* Test started: invalidPassword*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:18.288 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:18.448 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:20.139 BasePage:122 - Filling invalidpassword in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:20.171 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:21.755 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:22.793 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:22.853 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:22.854 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:23.270 LoginTests:55 - ******************* Test ended: invalidPassword*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:23.270 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:24.584 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:24.587 LoginTests:47 - ******************* Test started: invalidUserName*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:24.662 BasePage:122 - Filling invalidusername in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:24.707 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:26.392 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:26.438 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:28.151 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:28.825 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:28.957 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:28.968 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:29.504 LoginTests:55 - ******************* Test ended: invalidUserName*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:29.505 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:30.803 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:30.805 LoginTests:47 - ******************* Test started: successfulLogin*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:30.869 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:30.901 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:32.111 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:32.156 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:33.849 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:35.364 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:35.420 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 18:58:35.421 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:37.007 LoginTests:55 - ******************* Test ended: successfulLogin*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 18:58:37.010 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:16.480 BaseTest:87 - Log file path: logs/Android_Pixel_3
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:26.295 BaseTest:109 - sessionId: 6d8b4906-715b-4a11-96eb-0b8f1a261f06
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:26.773 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:26.774 ProductTests:53 - ******************* Test started: validateProductOnProductDetailsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:27.378 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:27.453 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:29.064 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:29.105 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:30.311 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:31.637 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:31.753 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:31.754 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:32.643 BasePage:92 - Sauce Labs Backpack is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:34.300 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:34.353 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:34.353 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:35.347 BasePage:154 - Attribute: text - value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:35.387 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:35.387 VerificationUtils:27 - Expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:38.789 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:38.894 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:38.895 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:39.280 ProductTests:62 - ******************* Test ended: validateProductOnProductDetailsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:39.281 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:43.349 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:43.352 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:43.418 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:43.537 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:45.334 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:45.358 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:46.949 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:48.269 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:48.313 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:48.314 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:49.157 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:49.197 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:49.197 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:49.756 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:49.792 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:49.792 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:50.352 BasePage:99 - Settings button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:52.194 BasePage:99 - Logout button is clicked
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:52.681 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:52.682 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:57.130 ProductTests:52 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:00:57.133 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:57.418 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:57.506 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:58.812 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:00:58.884 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:01.018 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:02.356 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:02.402 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:02.403 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:03.357 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:03.440 VerificationUtils:26 - Actual: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:03.444 VerificationUtils:27 - Expected: Sauce Labs Backpack
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:04.284 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:04.345 VerificationUtils:26 - Actual: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:04.346 VerificationUtils:27 - Expected: $29.99
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:05.115 BasePage:99 - Settings button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:06.935 BasePage:99 - Logout button is clicked
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:08.105 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:08.110 ProductTests:63 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:12.555 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:12.556 LoginTests:47 - ******************* Test started: invalidPassword*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:12.956 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:13.034 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:14.662 BasePage:122 - Filling invalidpassword in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:14.697 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:16.290 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:17.455 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:17.513 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:17.513 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:17.973 LoginTests:55 - ******************* Test ended: invalidPassword*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:17.974 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:19.304 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:19.304 LoginTests:47 - ******************* Test started: invalidUserName*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:19.345 BasePage:122 - Filling invalidusername in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:19.387 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:21.100 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:21.125 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:22.725 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:23.119 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:23.217 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:23.224 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:23.845 LoginTests:55 - ******************* Test ended: invalidUserName*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:23.847 LoginTests:56 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:25.154 LoginTests:46 - ---------------------------------------------------
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:25.155 LoginTests:47 - ******************* Test started: successfulLogin*******************
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:25.204 BasePage:122 - Filling standard_user in Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:25.228 BasePage:106 - Clearing: Username Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:26.423 BasePage:122 - Filling secret_sauce in Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:26.454 BasePage:106 - Clearing: Password Textbox
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:28.102 BasePage:99 - Login button is clicked
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:29.335 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:29.361 VerificationUtils:26 - Actual: PRODUCTS
-[logs/Android_Pixel_3 INFO ] 2022-01-17 19:01:29.361 VerificationUtils:27 - Expected: PRODUCTS
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:30.012 LoginTests:55 - ******************* Test ended: successfulLogin*******************
-[logs/Android_Pixel_3 DEBUG] 2022-01-17 19:01:30.012 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:36:34.506 BaseTest:87 - Log file path: logs/Android_Pixel_3
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:37:27.853 BaseTest:109 - sessionId: b34f2c0d-e3fe-4b32-b43e-8de3223d383f
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:37:29.553 ProductTests:52 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:37:29.556 ProductTests:53 - ******************* Test started: validateProductOnProductDetailsPage*******************
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:31.568 BasePage:122 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:31.751 BasePage:106 - Clearing: Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:33.176 BasePage:122 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:33.276 BasePage:106 - Clearing: Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:35.496 BasePage:99 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:38.570 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:38.862 VerificationUtils:26 - Actual: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:38.863 VerificationUtils:27 - Expected: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:41.323 BasePage:92 - Sauce Labs Backpack is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:45.525 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:45.806 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:45.808 VerificationUtils:27 - Expected: Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:49.063 BasePage:154 - Attribute: text - value for carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:49.508 VerificationUtils:26 - Actual: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:49.511 VerificationUtils:27 - Expected: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:58.615 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:58.747 VerificationUtils:26 - Actual: $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:37:58.748 VerificationUtils:27 - Expected: $29.99
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:00.571 ProductTests:62 - ******************* Test ended: validateProductOnProductDetailsPage*******************
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:00.602 ProductTests:63 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:20.942 ProductTests:52 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:20.951 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:21.606 BasePage:122 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:21.727 BasePage:106 - Clearing: Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:23.612 BasePage:122 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:23.743 BasePage:106 - Clearing: Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:25.216 BasePage:99 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:28.250 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:28.454 VerificationUtils:26 - Actual: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:28.455 VerificationUtils:27 - Expected: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:31.235 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:31.506 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:31.509 VerificationUtils:27 - Expected: Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:32.857 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:32.932 VerificationUtils:26 - Actual: $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:32.932 VerificationUtils:27 - Expected: $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:34.005 BasePage:99 - Settings button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:36.114 BasePage:99 - Logout button is clicked
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:38.125 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:38.129 ProductTests:63 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:48.932 ProductTests:52 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:38:48.937 ProductTests:53 - ******************* Test started: validateProductOnProductsPage*******************
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:49.384 BasePage:122 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:49.485 BasePage:106 - Clearing: Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:50.732 BasePage:122 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:50.776 BasePage:106 - Clearing: Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:52.485 BasePage:99 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:54.360 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:54.452 VerificationUtils:26 - Actual: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:54.452 VerificationUtils:27 - Expected: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:57.394 BasePage:154 - Attribute: text - value for Sauce Labs Backpack is - Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:57.536 VerificationUtils:26 - Actual: Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:57.537 VerificationUtils:27 - Expected: Sauce Labs Backpack
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:59.639 BasePage:154 - Attribute: text - value for $29.99 is - $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:59.705 VerificationUtils:26 - Actual: $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:38:59.705 VerificationUtils:27 - Expected: $29.99
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:01.126 BasePage:99 - Settings button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:02.907 BasePage:99 - Logout button is clicked
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:03.919 ProductTests:62 - ******************* Test ended: validateProductOnProductsPage*******************
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:03.921 ProductTests:63 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:16.743 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:16.751 LoginTests:47 - ******************* Test started: invalidPassword*******************
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:17.193 BasePage:122 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:17.356 BasePage:106 - Clearing: Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:18.723 BasePage:122 - Filling invalidpassword in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:18.778 BasePage:106 - Clearing: Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:20.474 BasePage:99 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:21.957 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:22.106 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:22.108 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:23.259 LoginTests:55 - ******************* Test ended: invalidPassword*******************
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:23.265 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:25.626 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:25.635 LoginTests:47 - ******************* Test started: invalidUserName*******************
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:25.881 BasePage:122 - Filling invalidusername in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:25.946 BasePage:106 - Clearing: Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:27.841 BasePage:122 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:27.892 BasePage:106 - Clearing: Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:29.782 BasePage:99 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:32.148 BasePage:154 - Attribute: text - value for Username and password do not match any user in this service. is - Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:32.655 VerificationUtils:26 - Actual: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:32.656 VerificationUtils:27 - Expected: Username and password do not match any user in this service.
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:33.160 LoginTests:55 - ******************* Test ended: invalidUserName*******************
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:33.160 LoginTests:56 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:35.186 LoginTests:46 - ---------------------------------------------------
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:35.188 LoginTests:47 - ******************* Test started: successfulLogin*******************
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:35.355 BasePage:122 - Filling standard_user in Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:35.515 BasePage:106 - Clearing: Username Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:37.337 BasePage:122 - Filling secret_sauce in Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:37.453 BasePage:106 - Clearing: Password Textbox
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:39.184 BasePage:99 - Login button is clicked
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:42.430 BasePage:154 - Attribute: text - value for PRODUCTS is - PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:45.107 VerificationUtils:26 - Actual: PRODUCTS
+[logs/Android_Pixel_3 INFO ] 2022-03-31 17:39:45.123 VerificationUtils:27 - Expected: PRODUCTS
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:51.306 LoginTests:55 - ******************* Test ended: successfulLogin*******************
+[logs/Android_Pixel_3 DEBUG] 2022-03-31 17:39:51.308 LoginTests:56 - ---------------------------------------------------

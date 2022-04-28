@@ -1,7 +1,4 @@
-
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.learning</groupId>
 	<artifactId>MasterAppiumFramework_TDD</artifactId>
@@ -10,7 +7,7 @@
 	<properties>
 		<!-- DEFAULT - If you do not pass any value with mvn test, then, this value 
 			will be used -->
-		<suiteFile>testng.xml</suiteFile>
+		<suiteFile>testng_simulator_iPhone13</suiteFile>
 	</properties>
 
 	<build>
@@ -33,7 +30,8 @@
 					<suiteXmlFiles>
 						<!-- <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
 						<!-- <suiteXmlFile>testng.xml</suiteXmlFile> -->
-						<suiteXmlFile>${suiteFile}</suiteXmlFile>
+						<!--<suiteXmlFile>${suiteFile}</suiteXmlFile>-->
+						<suiteXmlFile>src/test/resources/runners/${suiteFile}.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
