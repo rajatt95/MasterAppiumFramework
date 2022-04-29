@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite_Parallel_Android_iOS" parallel="tests">
+
+	<!-- systemPort and chromeDriverPort must be unique for Parallel execution -->
+	<listeners>
+		<listener class-name="com.appium.listeners.ListenerClass"></listener>
+		<listener class-name="com.appium.listeners.AnnotationTransformer"></listener>
+		<listener class-name="com.appium.listeners.MethodInterceptor"></listener>
+	</listeners>
+
+	<test name="Tests_on_Emulator_Pixel_3">
+		<parameter name="emulator" value="true"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<!-- <parameter name="platformVersion" value="11.0"></parameter> -->
+		<parameter name="udid" value="emulator-5554"></parameter>
+		<!-- Please give proper value as deviceName value is used as avd (to start 
+			Emulator automatically) -->
+		<parameter name="deviceName" value="Pixel_3"></parameter>
+		<parameter name="systemPort" value="10031" />
+		<parameter name="chromeDriverPort" value="11032" />
+		<packages>
+			<package name="com.appium.tests"></package>
+		</packages>
+	</test>
+	<test name="Tests_on_Simulator_iPhone_13">
+		<!--<parameter name="emulator" value="true"></parameter> -->
+		<parameter name="platformName" value="iOS"></parameter>
+		<!-- <parameter name="platformVersion" value="11.0"></parameter> -->
+		<parameter name="udid" value="18FB4726-3A15-498D-8F7E-84965AB706EF"></parameter>
+		<!-- Please give proper value as deviceName value is used as avd (to start 
+			Emulator automatically) -->
+		<parameter name="deviceName" value="iPhone_13"></parameter>
+		<parameter name="wdaLocalPort" value="10051" />
+		<parameter name="webkitDebugProxyPort" value="11052" />
+		<packages>
+			<package name="com.appium.tests"></package>
+		</packages>
+	</test>
+</suite> 
